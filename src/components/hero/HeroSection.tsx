@@ -105,19 +105,20 @@ const HeroSection = () => {
   className="w-full flex-1 flex justify-center opacity-100"
 >
   <motion.div
-    animate={{ rotate: 360 }}
-    transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
-    className="w-full max-w-2xl"
-  >
-    <Image
-      src="/turbo-charger-hero-section.png"
-      alt="Turbo Image"
-      width={800}
-      height={500}
-      className="w-full"
-      priority
-    />
-  </motion.div>
+  animate={{ rotate: 360 }}
+  transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
+  className="w-full max-w-2xl flex justify-center items-center"
+>
+  <Image
+    src="/turbo-charger-hero-section.png"
+    alt="Turbo Image"
+    width={300}
+    height={300}
+    className="w-[300px] h-[300px] md:w-[410px] md:h-[410px] object-contain"
+    priority
+  />
+</motion.div>
+
 </motion.div>
 
       </div>
