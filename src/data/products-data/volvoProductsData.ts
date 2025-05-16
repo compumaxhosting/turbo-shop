@@ -2,7 +2,7 @@ import { commonDescription } from "../commonDescription";
 export const volvoProductsData = [
    {
     id: 1,
-    imgPath: ["/hero-img.png", "/hero-img.png", "/hero-img.png", "/hero-img.png"],
+    imgPath: ["/kia-image.png", "/kia-image.png", "/kia-image.png", "/kia-image.png"],
     brand: "Volvo",
     modelName: "Volvo 180 BHP Truck",
     subTitle: "",
@@ -34,7 +34,7 @@ export const volvoProductsData = [
   },
   {
     id: 2,
-    imgPath: ["/hero-img.png", "/hero-img.png", "/hero-img.png", "/hero-img.png"],
+    imgPath: ["/kia-image.png", "/kia-image.png", "/kia-image.png", "/kia-image.png"],
     brand: "Volvo",
     modelName: "Volvo 2 Stage Genset",
     subTitle: "",
@@ -68,7 +68,7 @@ export const volvoProductsData = [
     id: 3,
     brand: "Volvo",
     modelName: "Volvo 422 C Dump Truck",
-    imgPath: ["/hero-img.png", "/hero-img.png", "/hero-img.png", "/hero-img.png"],
+    imgPath: ["/kia-image.png", "/kia-image.png", "/kia-image.png", "/kia-image.png"],
     subTitle: "",
     leftPartNumber: "",
     rightPartNumber: "",
