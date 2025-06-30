@@ -29,9 +29,9 @@ const BreadcrumbSection: React.FC<BreadcrumbSectionProps> = ({
       <div
         className="absolute inset-0 bg-no-repeat"
         style={{
-          backgroundImage: "url('/tyre_print.svg')",
+          backgroundImage: "url('/tire-img.png')",
           backgroundPosition: "right -300px bottom -50px",
-          opacity: theme === "dark" ? 1 : 0.3, // Adjust opacity based on theme
+          opacity: theme === "dark" ? 0.2 : 0.3, // Adjust opacity based on theme
         }}
       ></div>
 

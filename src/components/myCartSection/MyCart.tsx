@@ -6,7 +6,7 @@ import OrderSummary from "./OrderSummary";
 import CartItemsContainer from "./CartItemsContainer";
 
 const MyCartPage: React.FC = () => {
-
+ 
   return (
     <div className="bg-whiteTwo dark:bg-blackTwo transition-colors duration-300">
       <div className="container mx-auto px-4 py-8">

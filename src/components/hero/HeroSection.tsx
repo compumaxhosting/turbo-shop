@@ -37,10 +37,10 @@ const HeroSection = () => {
     <section className="relative hero-img bg-whiteOne dark:bg-blackOne text-blackTwo dark:text-whiteOne px-6 md:px-16 py-20 pb-0 lg:py-24 2xl:py-32 overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-right-bottom"
+        className="absolute inset-0 bg-cover bg-right-center md:bg-right-bottom"
         style={{
-          backgroundImage: "url('/tyre_print.svg')",
-          opacity: theme === "dark" ? 1 : 0.3, // Adjust opacity based on theme
+          backgroundImage: "url('/tire-img.png')",
+          opacity: theme === "dark" ? 0.2 : 0.2, // Adjust opacity based on theme
         }}
       ></div>
 
@@ -99,31 +99,27 @@ const HeroSection = () => {
 
         {/* Right Content - Image */}
         <motion.div
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ delay: 0.5, duration: 1.75 }}
-  className="w-full flex-1 flex justify-center opacity-100"
->
-  <motion.div
-  animate={{ rotate: 360 }}
-  transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
-  className="w-full max-w-2xl flex justify-center items-center"
->
-  <Image
-    src="/turbo-charger-hero-section.png"
-    alt="Turbo Image"
-    width={300}
-    height={300}
-    className="w-[300px] h-[300px] md:w-[410px] md:h-[410px] object-contain"
-    priority
-  />
-</motion.div>
-
-</motion.div>
-
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1.75 }}
+          className="w-full flex-1 flex justify-center opacity-100"
+        >
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ repeat: Infinity, duration: 25, ease: "linear" }}
+            className="w-full max-w-2xl flex justify-center items-center"
+          >
+            <Image
+              src="/turbo-charger-hero-section.png"
+              alt="Turbo Image"
+              width={300}
+              height={300}
+              className="w-[300px] h-[300px] md:w-[410px] md:h-[410px] object-contain"
+              priority
+            />
+          </motion.div>
+        </motion.div>
       </div>
-
-      
     </section>
   );
 };

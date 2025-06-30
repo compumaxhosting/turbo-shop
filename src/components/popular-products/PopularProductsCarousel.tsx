@@ -48,7 +48,7 @@ const PopularProductsCarousel: React.FC<PopularProductsCarouselProps> = ({
                 <h3 className="text-blackTwo dark:text-white mt-6 text-xl 2xl:text-2xl font-semibold">
                   {product.modelName}
                 </h3>
-                <div className="flex flex-col gap-4 justify-between py-2">
+                <div className="hidden flex-col gap-4 justify-between py-2">
                   <div className="flex items-center">
                     <span className="text-blackTwo dark:text-white text-lg font-bold">
                       {prices.leftCurrent}
