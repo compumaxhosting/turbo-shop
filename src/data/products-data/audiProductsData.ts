@@ -138,7 +138,7 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "A3 2015-2023 FWD/Quattro 2.0TFSI",
+    modelName: "A3 2015-2020 FWD/Quattro 2.0TFSI",
     subTitle: "For Audi A3 with CZRA/CNTC engine and 2.0TFSI",
     leftPartNumber: "06K145874M",
     rightPartNumber: "",
@@ -158,7 +158,7 @@ export const audiProductsData = [
     },
     description: commonDescription,
     category: "AUDI A3",
-    year: "2015-2023",
+    year: "2015-2020",
     tag: "popular",
   },
   {
@@ -170,7 +170,7 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "A3 2015-2016 Quattro 1.8T/1.8T Gen3",
+    modelName: "A3 2014-2016 Quattro 1.8T Gen3",
     subTitle: "",
     leftPartNumber: "06K145713L",
     rightPartNumber: "",
@@ -190,7 +190,7 @@ export const audiProductsData = [
     },
     description: commonDescription,
     category: "AUDI A3",
-    year: "2015-2016",
+    year: "2014-2016",
     tag: "popular",
   },
   {
@@ -234,12 +234,11 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "S4 2000-2002 2.7T ",
+    modelName: "Audi S4 2000-2002 2.7T ",
     subTitle: "",
-    leftPartNumber:
-      "OEM cross reference number: 078145701S <br> (LEFT SIDE) Borg Warner K03",
+    leftPartNumber: "OEM cross reference number:LEFT 078145701S",
     rightPartNumber:
-      "OEM cross reference number:078145702S <br> (RIGHT SIDE) Borg Warner K03",
+      "OEM cross reference number:RIGHT 078145702S",
     prices: {
       usd: {
         leftCurrent: "$452.00 USD",
@@ -268,10 +267,10 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "RS4 2000-2002 2.7T ",
+    modelName: "Audi RS4 2000-2002 2.7T ",
     subTitle: "",
-    leftPartNumber: "K04-025 <br> (LEFT) (53049880025)",
-    rightPartNumber: "K04-026 <br> (RIGHT) (53049880026)",
+    leftPartNumber: "LEFT (53049880025) K04-025",
+    rightPartNumber: "RIGHT (53049880026) K04-026",
     prices: {
       usd: {
         leftCurrent: "$452.00 USD",
@@ -355,7 +354,6 @@ export const audiProductsData = [
     year: "2006-2008",
     tag: "popular",
   },
-
   {
     id: 12,
     imgPath: [
@@ -365,9 +363,9 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "A4 2009-2016 FWD/Quattro 2.0TFSI",
+    modelName: "A4 2009-2012 FWD/Quattro 2.0T",
     subTitle: "For B8 A4 FWD AND Quattro Models, 2.0TFSI",
-    leftPartNumber: "06F145701H",
+    leftPartNumber: "06D145701H",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -385,7 +383,7 @@ export const audiProductsData = [
     },
     description: commonDescription,
     category: "AUDI A4",
-    year: "2009-2016",
+    year: "2009-2012",
     tag: "popular",
   },
   {
@@ -397,9 +395,41 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
+    modelName: "A4 2013-2016 FWD/Quattro 2.0TFSI",
+    subTitle: "",
+    leftPartNumber: "06D145701Q",
+    rightPartNumber: "",
+    prices: {
+      usd: {
+        leftCurrent: "$452.00 USD",
+        leftOriginal: "$850.00 USD",
+        rightCurrent: "",
+        rightOriginal: "",
+      },
+      cad: {
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$1000.00 CAD",
+        rightCurrent: "",
+        rightOriginal: "",
+      },
+    },
+    description: commonDescription,
+    category: "AUDI A4",
+    year: "2013-2016",
+    tag: "popular",
+  },
+  {
+    id: 14,
+    imgPath: [
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+    ],
+    brand: "Audi",
     modelName: "A4 2017-2020 FWD/Quattro 2.0TFSI",
-    subTitle: "For B9 A4 FWD AND Quattro Models, 2.0TFSI Engines",
-    leftPartNumber: "06F145701H",
+    subTitle: "",
+    leftPartNumber: "06L145654",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -421,7 +451,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 14,
+    id: 15,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -453,7 +483,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 15,
+    id: 16,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -461,7 +491,7 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "A5 2009-2017 2.0T FWD/Quattro",
+    modelName: "A5 2009-2012 2.0T",
     subTitle: "For B8 A5 FWD AND Quattro Models, 2.0TFSI Engines",
     leftPartNumber: "06F145701H",
     rightPartNumber: "",
@@ -481,11 +511,43 @@ export const audiProductsData = [
     },
     description: commonDescription,
     category: "AUDI A5",
-    year: "2009-2017",
+    year: "2009-2012",
     tag: "popular",
   },
   {
-    id: 16,
+    id: 17,
+    imgPath: [
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+    ],
+    brand: "Audi",
+    modelName: " A5 2013-2017 FWD and Quattro",
+    subTitle: "Products Coming Soon",
+    leftPartNumber: "",
+    rightPartNumber: "",
+    prices: {
+      usd: {
+        leftCurrent: "$452.00 USD",
+        leftOriginal: "$850.00 USD",
+        rightCurrent: "",
+        rightOriginal: "",
+      },
+      cad: {
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$1000.00 CAD",
+        rightCurrent: "",
+        rightOriginal: "",
+      },
+    },
+    description: commonDescription,
+    category: "AUDI A5",
+    year: "2013-2017",
+    tag: "popular",
+  },
+  {
+    id: 18,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -517,7 +579,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 17,
+    id: 19,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -549,7 +611,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 18,
+    id: 20,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -581,7 +643,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 19,
+    id: 21,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -613,7 +675,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 20,
+    id: 22,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -645,7 +707,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 21,
+    id: 23,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -677,7 +739,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 22,
+    id: 24,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -709,7 +771,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 23,
+    id: 25,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -741,7 +803,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 24,
+    id: 26,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -773,7 +835,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 25,
+    id: 27,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -805,7 +867,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 26,
+    id: 28,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -837,7 +899,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 27,
+    id: 29,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -869,7 +931,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 28,
+    id: 30,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -900,9 +962,8 @@ export const audiProductsData = [
     year: "2006-2008",
     tag: "popular",
   },
-
   {
-    id: 29,
+    id: 31,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -934,7 +995,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 30,
+    id: 32,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -966,7 +1027,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 31,
+    id: 33,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -998,7 +1059,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 32,
+    id: 34,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -1030,7 +1091,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 33,
+    id: 35,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",
@@ -1062,7 +1123,7 @@ export const audiProductsData = [
     tag: "popular",
   },
   {
-    id: 34,
+    id: 36,
     imgPath: [
       "/hero-img.png",
       "/hero-img.png",

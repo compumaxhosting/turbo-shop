@@ -76,12 +76,16 @@ const CouponSection: React.FC<CouponSectionProps> = ({
         <span className="text-primary font-extrabold dark:text-primaryLight">
           &apos;TURBOSHOP10&apos;
         </span>{" "}
-        for instant 10% off
+        for an instant 10% off
       </p>
       <button
         onClick={handleCouponApply}
         disabled={isCouponApplied}
-        className={`w-full py-3 transition duration-300 btn-primary ${isCouponApplied ? "bg-whiteTwo dark:bg-blackTwo text-blackTwo dark:text-whiteTwo border border-gray-200 dark:border-stone-800" : "bg-primary text-whiteTwo"} font-bold`}
+        className={`w-full py-3 transition duration-300 btn-primary ${
+          isCouponApplied
+            ? "bg-whiteTwo dark:bg-blackTwo text-blackTwo dark:text-whiteTwo border border-gray-200 dark:border-stone-800"
+            : "bg-primary text-whiteTwo"
+        } font-bold`}
       >
         {isCouponApplied ? "Coupon Applied" : "Apply Coupon"}
       </button>
