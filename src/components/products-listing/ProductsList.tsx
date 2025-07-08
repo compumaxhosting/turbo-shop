@@ -88,8 +88,13 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                   {/* Left Side Pricing */}
                   <LeftPricingSection prices={prices} product={product} />
 
-                  {/* Right Side Pricing */}
-                  <RightPricingSection prices={prices} product={product} />
+                  {!(
+                    product.rightPartNumber === "" &&
+                    prices.rightCurrent === "" &&
+                    prices.rightOriginal === ""
+                  ) && (
+                    <RightPricingSection prices={prices} product={product} />
+                  )}
                 </div>
               </div>
             );

@@ -50,7 +50,7 @@ const LeftPricingSection: React.FC<LeftPricingSectionProps> = ({
   return (
     <div className="p-4 w-full bg-whiteTwo dark:bg-blackTwo border border-gray-200 dark:border-stone-800">
       <p className="text-lg mb-2 font-semibold text-gray-600 dark:text-whiteTwo">
-        OEM Left Part :
+        {product.rightPartNumber === "" ? "Part Number" : "OEM Left Part"}
       </p>
       <div className="flex flex-col justify-between">
         <div className="flex flex-wrap items-center">
@@ -63,7 +63,9 @@ const LeftPricingSection: React.FC<LeftPricingSectionProps> = ({
         </div>
 
         <p className="text-xs sm:text-sm mb-4 text-gray-600 dark:text-gray-400">
-          OEM Left Part Number : {product.leftPartNumber || "N/A"}
+          {product.rightPartNumber === ""
+            ? `Part Number: ${product.leftPartNumber || "N/A"}`
+            : `OEM Left Part Number: ${product.leftPartNumber || "N/A"}`}
         </p>
 
         {/* Use CartButtonGroup here */}
