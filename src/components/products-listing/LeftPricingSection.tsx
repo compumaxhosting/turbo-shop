@@ -50,7 +50,7 @@ const LeftPricingSection: React.FC<LeftPricingSectionProps> = ({
   return (
     <div className="p-4 w-full bg-whiteTwo dark:bg-blackTwo border border-gray-200 dark:border-stone-800">
       <p className="text-lg mb-2 font-semibold text-gray-600 dark:text-whiteTwo">
-        {product.rightPartNumber === "" ? "Part Number" : "OEM Left Part"}
+        {product.rightPartNumber === "" ? "" : "OEM Left Part"}
       </p>
       <div className="flex flex-col justify-between">
         <div className="flex flex-wrap items-center">
