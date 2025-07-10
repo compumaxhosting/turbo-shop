@@ -10,10 +10,10 @@ export const fordProductsData = [
       "/hero-img.png",
     ],
     brand: "Ford",
-    modelName: "F150 3.5 Ecoboost 2010-2012 4WD",
+    modelName: "F150 3.5 Ecoboost 2017 4WD",
     subTitle: "",
-    leftPartNumber: "BL3Z-6K682-C",
-    rightPartNumber: "BL3Z-6K682-B",
+    leftPartNumber: "HL3Z-6K682-B",
+    rightPartNumber: "HL3Z-6K682-A",
     prices: {
       usd: {
         leftCurrent: "$450 USD",
@@ -30,7 +30,7 @@ export const fordProductsData = [
     },
     description: commonDescription,
     category: "F150",
-    year: "2010-2012",
+    year: "2017",
     tag: "popular",
   },
   {
@@ -138,10 +138,10 @@ export const fordProductsData = [
       "/hero-img.png",
     ],
     brand: "Ford",
-    modelName: "F150 3.5 Ecoboost 2021-2023 4WD",
-    subTitle: "",
-    leftPartNumber: "FL3Z-6K682-D",
-    rightPartNumber: "BL3Z-6K682-B",
+    modelName: "F150 3.5 Ecoboost 2021-2024 4WD",
+    subTitle: "PRODUCTS COMING SOON",
+    leftPartNumber: "ML3Z-6K682-A",
+    rightPartNumber: "ML3Z-6K682-B",
     prices: {
       usd: {
         leftCurrent: "$450 USD",

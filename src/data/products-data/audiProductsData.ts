@@ -160,7 +160,7 @@ export const audiProductsData = [
     category: "AUDI A3",
     year: "2015-2020",
     tag: "popular",
-  },
+  } /* 
   {
     id: 6,
     imgPath: [
@@ -192,7 +192,7 @@ export const audiProductsData = [
     category: "AUDI A3",
     year: "2014-2016",
     tag: "popular",
-  },
+  }, */,
   {
     id: 7,
     imgPath: [
@@ -237,8 +237,7 @@ export const audiProductsData = [
     modelName: "Audi S4 2000-2002 2.7T ",
     subTitle: "",
     leftPartNumber: "OEM cross reference number:LEFT 078145701S",
-    rightPartNumber:
-      "OEM cross reference number:RIGHT 078145702S",
+    rightPartNumber: "OEM cross reference number:RIGHT 078145702S",
     prices: {
       usd: {
         leftCurrent: "$452.00 USD",
@@ -365,7 +364,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "A4 2009-2012 FWD/Quattro 2.0T",
     subTitle: "For B8 A4 FWD AND Quattro Models, 2.0TFSI",
-    leftPartNumber: "06D145701H",
+    leftPartNumber: "06H145689Q",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -397,7 +396,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "A4 2013-2016 FWD/Quattro 2.0TFSI",
     subTitle: "",
-    leftPartNumber: "06D145701Q",
+    leftPartNumber: "06K145702F",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -461,7 +460,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "A4 2021-2024 FWD And Quattro",
     subTitle: "PRODUCTS COMING SOON",
-    leftPartNumber: "06F145701H",
+    leftPartNumber: "06N145702D",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -493,7 +492,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "A5 2009-2012 2.0T",
     subTitle: "For B8 A5 FWD AND Quattro Models, 2.0TFSI Engines",
-    leftPartNumber: "06F145701H",
+    leftPartNumber: "06H145689Q",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -523,9 +522,9 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: " A5 2013-2017 FWD and Quattro",
+    modelName: "A5 2013-2017 FWD and Quattro",
     subTitle: "Products Coming Soon",
-    leftPartNumber: "",
+    leftPartNumber: "06K145702F",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -717,7 +716,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "Q5 2013-2017",
     subTitle: "",
-    leftPartNumber: "06H145703S",
+    leftPartNumber: "06K145702F ",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -749,7 +748,7 @@ export const audiProductsData = [
     brand: "Audi",
     modelName: "Q5 2018-2019",
     subTitle: "",
-    leftPartNumber: "06F145907D",
+    leftPartNumber: "06L145702L",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -939,7 +938,7 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "TT 2006-2008 W/BPY Engine Code 180hp",
+    modelName: "TT 2008-2009 W/BPY Engine Code 180hp",
     subTitle: "For Audi TT with 2.0T BPY engine code & FWD",
     leftPartNumber: "06F145701H",
     rightPartNumber: "",
@@ -959,7 +958,7 @@ export const audiProductsData = [
     },
     description: commonDescription,
     category: "AUDI TT",
-    year: "2006-2008",
+    year: "2008-2009",
     tag: "popular",
   },
   {
@@ -1067,7 +1066,7 @@ export const audiProductsData = [
       "/hero-img.png",
     ],
     brand: "Audi",
-    modelName: "TT 2016-2018 TTS 2.0T",
+    modelName: "2016-2018 TTS 2.0T",
     subTitle: "",
     leftPartNumber: "06K145722H",
     rightPartNumber: "",

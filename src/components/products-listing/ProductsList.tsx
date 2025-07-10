@@ -17,7 +17,6 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
 
   return (
       <div className="container mx-auto px-4">
-        {/* Grid layout with responsive breakpoints */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {productsData.map((product) => {
             // Dynamically select the prices based on the currency
@@ -78,13 +77,20 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                   href={`/${brandLowerCase}-products/${product.id}`}
                   onClick={handleLinkClick}
                 >
-                  <h3 className="text-blackTwo dark:text-white mt-6 text-xl font-semibold">
+                  <h3 className="text-blackTwo dark:text-white mt-3 text-xl font-semibold">
                     {product.modelName}
+                  </h3>
+
+                  <h3 className="text-primary dark:text-primary mt-2 text-md font-semibold">
+                 {
+                      product.subTitle ||
+                        "\u00A0" /* non-breaking space to reserve height */
+                    }
                   </h3>
                 </Link>
 
                 {/* Pricing Section */}
-                <div className="mt-6 space-y-4">
+                <div className="mt-2 space-y-4">
                   {/* Left Side Pricing */}
                   <LeftPricingSection prices={prices} product={product} />
 

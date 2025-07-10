@@ -17,6 +17,7 @@ export function SelectVehicleMake() {
     { name: "BMW", path: "/bmw-products" },
     { name: "CHEVROLET", path: "/chevrolet-products" },
     { name: "CADILLAC", path: "/cadillac-products" },
+    { name: "DODGE", path: "/dodge-products" },
     { name: "GMC", path: "/gmc-products" },
     { name: "FORD", path: "/ford-products" },
     { name: "FIAT", path: "/fiat-products" },
@@ -30,6 +31,7 @@ export function SelectVehicleMake() {
     { name: "SAAB", path: "/saab-products" },
     { name: "SMART", path: "/smart-products" },
     { name: "SUBARU", path: "/subaru-products" },
+    { name: "TOYOTA", path: "/toyota-products" },
     { name: "VOLKSWAGEN", path: "/volkswagen-products" },
     { name: "VOLVO", path: "/volvo-products" },
   ];

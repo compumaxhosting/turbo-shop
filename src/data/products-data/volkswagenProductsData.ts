@@ -2,38 +2,6 @@ import { commonDescription } from "../commonDescription";
 
 export const volkswagenProductsData = [
   {
-    id: 1,
-    imgPath: [
-      "/hero-img.png",
-      "/hero-img.png",
-      "/hero-img.png",
-      "/hero-img.png",
-    ],
-    brand: "Volkswagen",
-    modelName: "Golf GTi 1.8T 1999-2005",
-    subTitle: "For Engine codes AWW and AWP",
-    leftPartNumber: "06A145713D",
-    rightPartNumber: "",
-    prices: {
-      usd: {
-        leftCurrent: "$450.00 USD",
-        leftOriginal: "$550.00 USD",
-        rightCurrent: "",
-        rightOriginal: "",
-      },
-      cad: {
-        leftCurrent: "$650.00 CAD",
-        leftOriginal: "$750.00 CAD",
-        rightCurrent: "",
-        rightOriginal: "",
-      },
-    },
-    description: commonDescription,
-    category: "Volkswagen Golf",
-    year: "1999-2005",
-    tag: "popular",
-  },
-  {
     id: 2,
     imgPath: [
       "/hero-img.png",
@@ -74,8 +42,8 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "1999-2005 Golf GTi 1.9T BEW Engine Code",
-    subTitle: "For GT1749V TURBOCHARGER",
+    modelName: "1989-2003 Golf GTi 1.9T ALH Engine Code",
+    subTitle: "",
     leftPartNumber: "038253019S",
     rightPartNumber: "",
     prices: {
@@ -94,7 +62,7 @@ export const volkswagenProductsData = [
     },
     description: commonDescription,
     category: "Volkswagen Golf",
-    year: "1999-2005",
+    year: "1989-2003",
     tag: "popular",
   },
   {
@@ -106,8 +74,8 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "1999-2006 Golf GTi 1.9TDI BEW Engine Code",
-    subTitle: "For GT1749V Turbocharger",
+    modelName: "2004-2006 Golf GTi 1.9TDI BEW Engine Code",
+    subTitle: "",
     leftPartNumber: "038253019S",
     rightPartNumber: "",
     prices: {
@@ -126,7 +94,7 @@ export const volkswagenProductsData = [
     },
     description: commonDescription,
     category: "Volkswagen Golf",
-    year: "1999-2006",
+    year: "2004-2006",
     tag: "popular",
   },
   {
@@ -138,7 +106,7 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "Golf GTi 2.0T 2006-2009",
+    modelName: "Golf GTi 2.0T 2006-2008",
     subTitle: "For Engine codes BPY",
     leftPartNumber: "06F145701H",
     rightPartNumber: "",
@@ -158,7 +126,7 @@ export const volkswagenProductsData = [
     },
     description: commonDescription,
     category: "Volkswagen Golf",
-    year: "2006-2009",
+    year: "2006-2008",
     tag: "popular",
   },
   {
@@ -170,9 +138,9 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "Golf GTi 2006-2014 2.0T",
+    modelName: "Golf GTi 2008-2014 2.0T W/CCTA",
     subTitle: "For Engine code CCTA/CBFA IHI Based Turbocharger",
-    leftPartNumber: "06F145702C",
+    leftPartNumber: "06J145702K",
     rightPartNumber: "",
     prices: {
       usd: {
@@ -190,7 +158,7 @@ export const volkswagenProductsData = [
     },
     description: commonDescription,
     category: "Volkswagen Golf",
-    year: "2006-2014",
+    year: "2008-2014",
     tag: "popular",
   },
   {
@@ -202,7 +170,7 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "Golf R 2014-2019 2.0T",
+    modelName: "Golf R 2015-2017 2.0T",
     subTitle: "",
     leftPartNumber: "06K145722H/06K145874N",
     rightPartNumber: "",
@@ -222,7 +190,7 @@ export const volkswagenProductsData = [
     },
     description: commonDescription,
     category: "Volkswagen Golf",
-    year: "2014-2019",
+    year: "2015-2017",
     tag: "popular",
   },
   {
