@@ -33,36 +33,4 @@ export const nissanInfinitiProductsData = [
     year: "",
     tag: "popular",
   },
-  {
-    id: 2,
-    imgPath: [
-      "/hero-img.png",
-      "/hero-img.png",
-      "/hero-img.png",
-      "/hero-img.png",
-    ],
-    brand: "Nissan",
-    modelName: "Cooper B48 Engines",
-    subTitle: "",
-    leftPartNumber: "11658626637",
-    rightPartNumber: "",
-    prices: {
-      usd: {
-        leftCurrent: "$450.00 USD",
-        leftOriginal: "$550.00 USD",
-        rightCurrent: "",
-        rightOriginal: "",
-      },
-      cad: {
-        leftCurrent: "$650.00 CAD",
-        leftOriginal: "$750.00 CAD",
-        rightCurrent: "",
-        rightOriginal: "",
-      },
-    },
-    description: commonDescription,
-    category: "Nissan",
-    year: "",
-    tag: "popular",
-  },
 ];

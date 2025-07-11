@@ -17,7 +17,6 @@ export function SelectVehicleMake() {
     { name: "BMW", path: "/bmw-products" },
     { name: "CHEVROLET", path: "/chevrolet-products" },
     { name: "CADILLAC", path: "/cadillac-products" },
-    { name: "DODGE", path: "/dodge-products" },
     { name: "GMC", path: "/gmc-products" },
     { name: "FORD", path: "/ford-products" },
     { name: "FIAT", path: "/fiat-products" },
@@ -27,13 +26,16 @@ export function SelectVehicleMake() {
     { name: "LAND ROVER", path: "/land-rover-products" },
     { name: "LINCOLN", path: "/lincoln-products" },
     { name: "MERCEDES", path: "/mercedes-products" },
+    { name: "MAZDA", path: "/mazda-products" },
     { name: "MINI", path: "/mini-products" },
+    { name: "NISSAN/INFINITI", path: "/nissan-infiniti" },
     { name: "SAAB", path: "/saab-products" },
     { name: "SMART", path: "/smart-products" },
     { name: "SUBARU", path: "/subaru-products" },
     { name: "TOYOTA", path: "/toyota-products" },
     { name: "VOLKSWAGEN", path: "/volkswagen-products" },
     { name: "VOLVO", path: "/volvo-products" },
+    { name: "DODGE/CHRYSLER/EAGLE/JEEP", path: "/dodge-chrysler-eagle-jeep" },
   ];
 
   // Use effect to ensure the component is mounted

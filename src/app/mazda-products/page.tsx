@@ -10,7 +10,7 @@ import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
 import usePreLoaderAnimation from "@/lib/usePreLoaderAnimation";
 import ScrollToTop from "@/components/extras/ScrollToTop";
 import ShippingFeeToast from "@/components/extras/ShippingFeeToast";
-import { nissanInfinitiProductsData } from "@/data/products-data/nissanInfiniti";
+import { mazdaProductsData } from "@/data/products-data/mazdaProductsData";
 
 const Page = () => {
   usePreLoaderAnimation();
@@ -25,10 +25,13 @@ const Page = () => {
         text="ADDITIONAL $200 FOR SHIPPING FOR PRODUCT REPAIRS."
       />
       <BreadcrumbSection
-        title="SHOP NISSAN/INFINITI PRODUCTS"
-        breadcrumbs={[{ label: "Home", href: "/" }, { label: "nissan/Infiniti-products" }]}
+        title="SHOP MAZDA PRODUCTS"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "mazda-products" },
+        ]}
       />
-      <ProductsSection productsData={nissanInfinitiProductsData} />
+      <ProductsSection productsData={mazdaProductsData} />
       <ScrollToTop />
       <Footer />
     </>
