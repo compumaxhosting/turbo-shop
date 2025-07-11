@@ -25,7 +25,7 @@ const Page = () => {
         text="ADDITIONAL $200 FOR SHIPPING FOR PRODUCT REPAIRS."
       />
       <BreadcrumbSection
-        title="SHOP KIA PRODUCTS"
+        title="SHOP HYUNDAI/KIA PRODUCTS"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "KIA-products" }]}
       />
       <ProductsSection productsData={kiaProductsData} />
