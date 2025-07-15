@@ -42,7 +42,7 @@ export const volkswagenProductsData = [
       "/hero-img.png",
     ],
     brand: "Volkswagen",
-    modelName: "1989-2003 Golf GTi 1.9T ALH Engine Code",
+    modelName: "1998-2003 Golf GTi 1.9T ALH Engine Code",
     subTitle: "",
     leftPartNumber: "038253019S",
     rightPartNumber: "",

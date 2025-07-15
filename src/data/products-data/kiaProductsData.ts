@@ -1,6 +1,6 @@
 import { commonDescription } from "../commonDescription";
 export const kiaProductsData = [
-  {
+  /* {
     id: 1,
     imgPath: [
       "/kia-image.png",
@@ -127,7 +127,7 @@ export const kiaProductsData = [
     category: "KIA Carnival",
     year: "2006",
     tag: "popular",
-  },
+  }, */
   {
     id: 5,
     imgPath: [

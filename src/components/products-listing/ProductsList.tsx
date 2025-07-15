@@ -77,12 +77,15 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                   href={`/${brandLowerCase}-products/${product.id}`}
                   onClick={handleLinkClick}
                 >
+                  <h3 className="text-primary dark:text-primary mt-3 text-md font-semibold">
+                    {product.brand}
+                  </h3>
                   <h3 className="text-blackTwo dark:text-white mt-3 text-xl font-semibold">
                     {product.modelName}
                   </h3>
 
                   <h3 className="text-primary dark:text-primary mt-2 text-md font-semibold">
-                 {
+                    {
                       product.subTitle ||
                         "\u00A0" /* non-breaking space to reserve height */
                     }

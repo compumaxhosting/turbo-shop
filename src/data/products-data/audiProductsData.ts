@@ -363,7 +363,7 @@ export const audiProductsData = [
     ],
     brand: "Audi",
     modelName: "A4 2009-2012 FWD/Quattro 2.0T",
-    subTitle: "For B8 A4 FWD AND Quattro Models, 2.0TFSI",
+    subTitle: "",
     leftPartNumber: "06H145689Q",
     rightPartNumber: "",
     prices: {
