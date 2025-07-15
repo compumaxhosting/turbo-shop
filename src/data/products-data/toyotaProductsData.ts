@@ -8,7 +8,7 @@ export const toyotaProductsData = [
       "/hero-img.png",
       "/hero-img.png",
     ],
-    brand: "Lexus",
+    brand: "TOYOTA",
     modelName: "2014-2024 IS,RC,NX,GS Series with 2.0 Turbo Engine",
     subTitle: "",
     leftPartNumber: "17201-36030",

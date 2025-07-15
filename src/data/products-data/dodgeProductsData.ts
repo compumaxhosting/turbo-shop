@@ -40,7 +40,7 @@ export const dodgeProductsData = [
       "/hero-img.png",
       "/hero-img.png",
     ],
-    brand: "JEEP",
+    brand: "DODGE",
     modelName: "Grand Cherokee Diesel 3.0 2014-2019",
     subTitle: "",
     leftPartNumber: "823024-5004S",
