@@ -3,16 +3,16 @@ export const smartProductsData = [
   {
   "id": 1,
   "imgPath": [
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png"
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png"
   ],
   "brand": "Smart",
   "modelName": "Fortwo 0.8L CDI Turbocharger",
   "subTitle": "For Smart Fortwo 0.8L Diesel Engine (CDI)",
   "leftPartNumber": "54359700009",
-  "rightPartNumber": "6600900880",
+  "rightPartNumber": "",
   "prices": {
     "usd": {
       "leftCurrent": "$410.00 USD",
@@ -35,16 +35,16 @@ export const smartProductsData = [
 {
   "id": 2,
   "imgPath": [
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png"
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png"
   ],
   "brand": "Smart",
   "modelName": "Forfour 1.5L CDI Turbocharger",
   "subTitle": "For Smart Forfour with 1.5L Diesel Engine",
   "leftPartNumber": "54399880022",
-  "rightPartNumber": "A6600960699",
+  "rightPartNumber": "",
   "prices": {
     "usd": {
       "leftCurrent": "$425.00 USD",
@@ -67,16 +67,16 @@ export const smartProductsData = [
 {
   "id": 3,
   "imgPath": [
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png",
-    "/kia-image.png"
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png",
+    "/hero-img.png"
   ],
   "brand": "Smart",
   "modelName": "Fortwo 1.0L Turbo M132",
   "subTitle": "For Smart Fortwo M132 1.0L Petrol Turbo Engine",
   "leftPartNumber": "781743-5001S",
-  "rightPartNumber": "A1320900980",
+  "rightPartNumber": "",
   "prices": {
     "usd": {
       "leftCurrent": "$440.00 USD",

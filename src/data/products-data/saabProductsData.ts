@@ -4,10 +4,10 @@ export const saabProductsData = [
   {
     id: 7,
     imgPath: [
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
     ],
     brand: "SAAB",
     modelName: "Saab 2003-2011 9-3 2.0 Turbo",
@@ -41,10 +41,10 @@ export const saabProductsData = [
   {
     id: 8,
     imgPath: [
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
     ],
     brand: "SAAB",
     modelName: "Cartridge for B235R Engine",
@@ -78,10 +78,10 @@ export const saabProductsData = [
   {
     id: 9,
     imgPath: [
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
-      "/kia-image.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
+      "/hero-img.png",
     ],
     brand: "SAAB",
     modelName: "Cartridge for B235E Engine",
