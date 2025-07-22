@@ -53,8 +53,8 @@ export const hondaProductsData = [
       "rightOriginal": ""
     },
     "cad": {
-      "leftCurrent": "$680.00 CAD",
-      "leftOriginal": "$1050.00 CAD",
+      "leftCurrent": "$650.00 CAD",
+      "leftOriginal": "$750.00 CAD",
       "rightCurrent": "",
       "rightOriginal": ""
     }
@@ -85,8 +85,8 @@ export const hondaProductsData = [
       "rightOriginal": ""
     },
     "cad": {
-      "leftCurrent": "$700.00 CAD",
-      "leftOriginal": "$1080.00 CAD",
+      "leftCurrent": "$650.00 CAD",
+      "leftOriginal": "$750.00 CAD",
       "rightCurrent": "",
       "rightOriginal": ""
     }

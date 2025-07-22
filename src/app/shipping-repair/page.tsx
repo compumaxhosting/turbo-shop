@@ -3,13 +3,10 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
-import HeroSection from "@/components/hero/HeroSection";
-import PopularProductsSection from "@/components/popular-products/PopularProductsSection";
-import ContactUsSection from "@/components/contact-us/ContactUsSection";
-import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
 import { useEffect } from "react";
 import ScrollToTopp from "@/components/extras/ScrollToTop";
 import ShippingFeeToast from "@/components/extras/ShippingFeeToast";
+import Shipping from "@/components/extras/Shipping";
 
 const Page: React.FC = () => {
   
@@ -37,14 +34,11 @@ const Page: React.FC = () => {
     <div className="bg-whiteOne dark:bg-blackOne">
       <HeaderTop />
       <Header />
-      <SelectVehicleMake />
+      <Shipping />
       <ShippingFeeToast
         heading="SHIPPING CHARGES FOR REPAIR"
         text="An additional $200 shipping fee applies for all product repairs."
       />
-      <HeroSection />
-      <PopularProductsSection />
-      <ContactUsSection />
       <ScrollToTopp />
       <Footer />
     </div>

@@ -23,9 +23,9 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$650 CAD",
+        leftOriginal: "$1000 CAD",
         rightCurrent: "$650 CAD",
-        rightOriginal: "$650 CAD",
+        rightOriginal: "$1000 CAD",
       },
     },
     description: commonDescription,
@@ -55,7 +55,7 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$650 CAD",
+        leftOriginal: "$1000 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -87,7 +87,7 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$650 CAD",
+        leftOriginal: "$1000 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -119,7 +119,7 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$650 CAD",
+        leftOriginal: "$1000 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -151,9 +151,9 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "$650 CAD",
-        rightOriginal: "$1200.00 CAD",
+        rightOriginal: "$1000.00 CAD",
       },
     },
     description: commonDescription,
@@ -183,9 +183,9 @@ export const bmwProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "$650 CAD",
-        rightOriginal: "$1200.00 CAD",
+        rightOriginal: "$1000.00 CAD",
       },
     },
     description: commonDescription,

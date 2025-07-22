@@ -21,8 +21,8 @@ export const dodgeProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$950.00 CAD",
-        leftOriginal: "$1050.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -53,8 +53,8 @@ export const dodgeProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$950.00 CAD",
-        leftOriginal: "$1050.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

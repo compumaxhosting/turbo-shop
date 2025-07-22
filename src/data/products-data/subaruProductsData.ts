@@ -23,7 +23,7 @@ export const subaruProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200 CAD",
+        leftOriginal: "$750 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -55,7 +55,7 @@ export const subaruProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200 CAD",
+        leftOriginal: "$750 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -87,7 +87,7 @@ export const subaruProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200 CAD",
+        leftOriginal: "$750 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -119,7 +119,7 @@ export const subaruProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200 CAD",
+        leftOriginal: "$750 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -151,7 +151,7 @@ export const subaruProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200 CAD",
+        leftOriginal: "$750 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

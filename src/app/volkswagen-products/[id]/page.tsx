@@ -6,7 +6,7 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
 import ProductDetails from "@/components/product-details/ProductDetails";
-import { tiguanProductsData } from "@/data/products-data/tiguanProductsData"; // Make sure the path is correct
+import { volkswagenProductsData } from "@/data/products-data/volkswagenProductsData"; // Make sure the path is correct
 import React from "react";
 
 // Explicitly define the type for params
@@ -29,7 +29,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ params }) => {
   const productId = parseInt(id, 10);
 
   // Find the product by its ID
-  const product = tiguanProductsData.find((prod) => prod.id === productId);
+  const product = volkswagenProductsData.find((prod) => prod.id === productId);
 
   if (!product) {
     return <div>Product not found!</div>;

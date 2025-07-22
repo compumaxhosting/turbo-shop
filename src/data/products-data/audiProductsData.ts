@@ -281,7 +281,7 @@ export const audiProductsData = [
         leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "$650.00 CAD",
-        rightOriginal: "$850.00 CAD",
+        rightOriginal: "$1000.00 CAD",
       },
     },
     description: commonDescription,

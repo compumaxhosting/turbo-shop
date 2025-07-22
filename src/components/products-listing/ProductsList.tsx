@@ -12,7 +12,7 @@ interface ProductsListProps {
   productsData: Product[];
 }
 
-const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
+const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => { 
   const { currency } = useCurrencyStore();
 
   return (
@@ -35,12 +35,14 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
             };
 
             return (
-              <div
+              <Link
                 key={product.id}
-                className="bg-whiteOne dark:bg-blackOne text-white p-4 border border-primary dark:border-primary shadow-xl dark:shadow-dark"
+                href={`/${brandLowerCase}-products/${product.id}`}
+                onClick={handleLinkClick}
+                className="block"
               >
-                <div className="relative">
-                 
+                <div className="bg-whiteOne dark:bg-blackOne text-white p-4 border border-primary dark:border-primary shadow-xl dark:shadow-dark hover:ring-2 hover:ring-primary transition duration-200">
+                  <div className="relative">
                     {/* Aspect Ratio Wrapper (for Image) */}
                     <div className="relative flex justify-center items-center aspect-video w-full bg-whiteTwo dark:bg-blackTwo border border-gray-200 dark:border-stone-800">
                       {product.tag ? (
@@ -66,42 +68,34 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                         priority
                       />
                     </div>
-                </div>
+                  </div>
 
-                {/* Title */}
-                <Link
-                  href={`/${brandLowerCase}-products/${product.id}`}
-                  onClick={handleLinkClick}
-                >
+                  {/* Title */}
                   <h3 className="text-primary dark:text-primary mt-2 text-md font-semibold">
                     {product.brand}
                   </h3>
                   <h3 className="text-blackTwo dark:text-white mt-2 text-xl font-semibold">
                     {product.modelName}
                   </h3>
-
                   <h3 className="text-primary dark:text-primary mt-1 text-sm font-semibold">
-                    {
-                      product.subTitle ||
-                        "\u00A0" /* non-breaking space to reserve height */
-                    }
+                    {product.subTitle || "\u00A0"}
                   </h3>
-                </Link>
 
-                {/* Pricing Section */}
-                <div className="mt-2 space-y-4">
-                  {/* Left Side Pricing */}
-                  <LeftPricingSection prices={prices} product={product} />
+                  {/* Pricing Section */}
+                  <div className="mt-2 space-y-4">
+                    {/* Left Side Pricing */}
+                    <LeftPricingSection prices={prices} product={product} />
 
-                  {!(
-                    product.rightPartNumber === "" &&
-                    prices.rightCurrent === "" &&
-                    prices.rightOriginal === ""
-                  ) && (
-                    <RightPricingSection prices={prices} product={product} />
-                  )}
+                    {!(
+                      product.rightPartNumber === "" &&
+                      prices.rightCurrent === "" &&
+                      prices.rightOriginal === ""
+                    ) && (
+                      <RightPricingSection prices={prices} product={product} />
+                    )}
+                  </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

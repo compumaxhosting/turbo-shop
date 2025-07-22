@@ -22,7 +22,7 @@ export const volvoProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$775.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$875.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -59,7 +59,7 @@ export const volvoProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$775.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$875.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -96,7 +96,7 @@ export const volvoProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$775.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$875.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -133,7 +133,7 @@ export const volvoProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$775.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$875.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -170,7 +170,7 @@ export const volvoProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$775.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$875.00 CAD",
         rightCurrent: "",
         rightOriginal: "",

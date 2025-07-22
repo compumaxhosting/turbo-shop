@@ -52,7 +52,7 @@ const ShippingFeeToast: React.FC<ShippingFeeToastProps> = ({
               {text}
             </p>
             <Link
-              href="/contact-us"
+              href="/shipping-repair"
               className="text-sm md:text-md px-4 py-2 bg-primary rounded-md w-fit"
             >
               <p className="text-white">Know More</p>

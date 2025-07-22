@@ -6,7 +6,7 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
 import ProductDetails from "@/components/product-details/ProductDetails";
-import { volvoProductsData } from "@/data/products-data/volvoProductsData"; // Make sure the path is correct
+import { smartProductsData } from "@/data/products-data/smartProductsData"; // Make sure the path is correct
 import React from "react";
 
 // Explicitly define the type for params
@@ -29,7 +29,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ params }) => {
   const productId = parseInt(id, 10);
 
   // Find the product by its ID
-  const product = volvoProductsData.find((prod) => prod.id === productId);
+  const product = smartProductsData.find((prod) => prod.id === productId);
 
   if (!product) {
     return <div>Product not found!</div>;

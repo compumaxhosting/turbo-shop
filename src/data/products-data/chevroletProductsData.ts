@@ -23,7 +23,7 @@ export const chevroletProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$750.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -55,7 +55,7 @@ export const chevroletProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$750.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

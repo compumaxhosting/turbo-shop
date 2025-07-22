@@ -26,7 +26,7 @@ const Page = () => {
       />
       <BreadcrumbSection
         title="SHOP LAND ROVER PRODUCTS"
-        breadcrumbs={[{ label: "Home", href: "/" }, { label: "land rover-products" }]}
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "land-rover-products" }]}
       />
       <ProductsSection productsData={landroverProductsData} />
       <ScrollToTop />

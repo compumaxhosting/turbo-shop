@@ -21,7 +21,7 @@ export const mercedesProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$850.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -53,7 +53,7 @@ export const mercedesProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$850.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -85,7 +85,7 @@ export const mercedesProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$850.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -117,7 +117,7 @@ export const mercedesProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$850.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -149,7 +149,7 @@ export const mercedesProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$850.00 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",

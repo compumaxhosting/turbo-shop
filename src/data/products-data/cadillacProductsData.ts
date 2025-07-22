@@ -23,7 +23,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -55,7 +55,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -87,7 +87,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -119,7 +119,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -151,7 +151,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -183,7 +183,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -215,7 +215,7 @@ export const cadillacProductsData = [
       },
       cad: {
         leftCurrent: "$650 CAD",
-        leftOriginal: "$1200.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

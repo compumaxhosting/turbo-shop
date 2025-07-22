@@ -22,8 +22,8 @@ export const saabProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$560.00 CAD",
-        leftOriginal: "$650.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -59,8 +59,8 @@ export const saabProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$560.00 CAD",
-        leftOriginal: "$650.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -96,8 +96,8 @@ export const saabProductsData = [
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$560.00 CAD",
-        leftOriginal: "$650.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

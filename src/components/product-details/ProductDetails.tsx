@@ -16,9 +16,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, images }) => {
   return (
     <div className="bg-white dark:bg-blackOne text-blackOne dark:text-white">
       <div className="container mx-auto py-10 2xl:py-20 flex flex-col xl:flex-row gap-8 items-center justify-center pl-4">
-        
         {/* Carousel Section */}
-          <SpecialCarousel images={images} />
+        <SpecialCarousel images={images} />
 
         {/* Product Details Section */}
         <div className="w-full xl:w-7/12 px-4">
@@ -35,13 +34,23 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, images }) => {
             </p>
 
             <div className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
-              <p>Category: <span className="font-semibold">{product.category}</span></p>
-              <p>Year: <span className="font-semibold">{product.year}</span></p>
+              <p>
+                Category:{" "}
+                <span className="font-semibold">{product.category}</span>
+              </p>
+              <p>
+                Year: <span className="font-semibold">{product.year}</span>
+              </p>
             </div>
 
             <div className="flex flex-col xl:flex-row xl:w-full gap-2 xl:gap-4 mt-6">
               <LeftPricingSection prices={prices} product={product} />
-              <RightPricingSection prices={prices} product={product} />
+
+              {(product.rightPartNumber ||
+                prices.rightCurrent ||
+                prices.rightOriginal) && (
+                <RightPricingSection prices={prices} product={product} />
+              )}
             </div>
           </div>
         </div>

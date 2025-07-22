@@ -23,7 +23,7 @@ export const fiatProductsData = [
       },
       cad: {
         leftCurrent: "$650.00 CAD",
-        leftOriginal: "$750.00 CAD",
+        leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

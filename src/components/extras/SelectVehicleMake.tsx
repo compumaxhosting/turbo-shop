@@ -28,14 +28,15 @@ export function SelectVehicleMake() {
     { name: "MERCEDES", path: "/mercedes-products" },
     { name: "MAZDA", path: "/mazda-products" },
     { name: "MINI", path: "/mini-products" },
-    { name: "NISSAN/INFINITI", path: "/nissan-infiniti" },
+    { name: "NISSAN/INFINITI", path: "/nissan-products  " },
     { name: "SAAB", path: "/saab-products" },
     { name: "SMART", path: "/smart-products" },
     { name: "SUBARU", path: "/subaru-products" },
     { name: "TOYOTA/LEXUS", path: "/toyota-products" },
     { name: "VOLKSWAGEN", path: "/volkswagen-products" },
     { name: "VOLVO", path: "/volvo-products" },
-    { name: "DODGE/CHRYSLER/EAGLE/JEEP", path: "/dodge-chrysler-eagle-jeep" },
+    { name: "TIGUAN", path: "/tiguan-products" },
+    { name: "DODGE/ CHRYSLER/ EAGLE/ JEEP", path: "/dodge-chrysler-eagle-jeep" },
   ];
 
   // Use effect to ensure the component is mounted
@@ -91,20 +92,24 @@ export function SelectVehicleMake() {
                   Select Vehicle Make
                 </h2>
                 {/* Two-column grid container */}
-                <div className="grid grid-cols-2 overflow-y-auto">
-                  {vehicleMakes.map((vehicle, index) => (
-                    <TransitionLink href={vehicle.path} key={index}>
-                      <div
-                        className="p-2 pl-4 hover:bg-gray-100 dark:hover:bg-blackOne cursor-pointer text-blackTwo dark:text-gray-200"
-                        onClick={() => {
-                          setIsOpen(false); // Close modal after selection
-                        }}
-                      >
-                        {vehicle.name}
-                      </div>
-                    </TransitionLink>
-                  ))}
+                <div className="grid grid-cols-2 overflow-y-auto gap-y-1">
+                  {vehicleMakes.map((vehicle, index) => {
+                    const isLongName = vehicle.name.length > 20; // adjust threshold as needed
+                    return (
+                      <TransitionLink href={vehicle.path} key={index}>
+                        <div
+                          className={`p-2 pl-4 hover:bg-gray-100 dark:hover:bg-blackOne cursor-pointer text-blackTwo dark:text-gray-200 break-words ${
+                            isLongName ? "col-span-2" : ""
+                          }`}
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {vehicle.name}
+                        </div>
+                      </TransitionLink>
+                    );
+                  })}
                 </div>
+
                 <div className="absolute top-4 right-4">
                   {/* Close button */}
                   <button
