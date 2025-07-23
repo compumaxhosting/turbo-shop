@@ -15,13 +15,13 @@ export const smartProductsData = [
   rightPartNumber: "",
   prices: {
     usd: {
-      leftCurrent: "$410.00 USD",
+      leftCurrent: "$480.00 USD",
       leftOriginal: "$620.00 USD",
       rightCurrent: "",
       rightOriginal: ""
     },
-    "cad": {
-      leftCurrent: "$560.00 CAD",
+    cad: {
+      leftCurrent: "$650.00 CAD",
       leftOriginal: "$800.00 CAD",
       rightCurrent: "",
       rightOriginal: ""
@@ -47,13 +47,13 @@ export const smartProductsData = [
   rightPartNumber: "",
   prices: {
     usd: {
-      leftCurrent: "$425.00 USD",
+      leftCurrent: "$480.00 USD",
       leftOriginal: "$670.00 USD",
       rightCurrent: "",
       rightOriginal: ""
     },
-    "cad": {
-      leftCurrent: "$580.00 CAD",
+    cad: {
+      leftCurrent: "$650.00 CAD",
       leftOriginal: "$850.00 CAD",
       rightCurrent: "",
       rightOriginal: ""
@@ -79,13 +79,13 @@ export const smartProductsData = [
   rightPartNumber: "",
   prices: {
     usd: {
-      leftCurrent: "$440.00 USD",
+      leftCurrent: "$480.00 USD",
       leftOriginal: "$690.00 USD",
       rightCurrent: "",
       rightOriginal: ""
     },
-    "cad": {
-      leftCurrent: "$590.00 CAD",
+    cad: {
+      leftCurrent: "$650.00 CAD",
       leftOriginal: "$870.00 CAD",
       rightCurrent: "",
       rightOriginal: ""

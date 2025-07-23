@@ -16,13 +16,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -48,13 +48,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -80,13 +80,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -112,13 +112,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -144,13 +144,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -176,13 +176,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
@@ -208,13 +208,13 @@ export const cadillacProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$1000.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
+        leftCurrent: "$650.00 CAD",
         leftOriginal: "$1000.00 CAD",
         rightCurrent: "",
         rightOriginal: "",

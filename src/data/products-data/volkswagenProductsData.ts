@@ -16,7 +16,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -48,7 +48,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -80,7 +80,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -112,7 +112,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -144,7 +144,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -176,7 +176,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -208,7 +208,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -240,7 +240,7 @@ export const volkswagenProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",

@@ -90,7 +90,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="/contact-us"
                     className="dark:text-white text-blackOne dark:hover:text-orange-500 hover:text-primary transition duration-200 flex items-center gap-2"
                   >
                     <QuickLinksSVG />

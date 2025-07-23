@@ -16,9 +16,9 @@ export const lincolnProductsData = [
     rightPartNumber: "DL3Z-6K682-F",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
-        rightCurrent: "$450.00 USD",
+        rightCurrent: "$480.00 USD",
         rightOriginal: "$550.00 USD",
       },
       cad: {
@@ -48,9 +48,9 @@ export const lincolnProductsData = [
     rightPartNumber: "JL7Z-6K682-B",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
-        rightCurrent: "$450.00 USD",
+        rightCurrent: "$480.00 USD",
         rightOriginal: "$550.00 USD",
       },
       cad: {

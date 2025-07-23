@@ -143,8 +143,8 @@ export const kiaProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$460.00 USD",
-        leftOriginal: "$560.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -175,8 +175,8 @@ export const kiaProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
-        leftOriginal: "$750.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -207,8 +207,8 @@ export const kiaProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
-        leftOriginal: "$750.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -239,8 +239,8 @@ export const kiaProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
-        leftOriginal: "$750.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },

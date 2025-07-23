@@ -16,7 +16,7 @@ export const volvoProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$700.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$675.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -53,7 +53,7 @@ export const volvoProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$700.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$675.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -90,7 +90,7 @@ export const volvoProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$700.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$675.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -127,7 +127,7 @@ export const volvoProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$700.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$675.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -164,7 +164,7 @@ export const volvoProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$700.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$675.00 USD",
         rightCurrent: "",
         rightOriginal: "",

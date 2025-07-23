@@ -15,8 +15,8 @@ export const dodgeProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
-        leftOriginal: "$950.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -47,8 +47,8 @@ export const dodgeProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
-        leftOriginal: "$950.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },

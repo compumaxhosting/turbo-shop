@@ -16,14 +16,14 @@ export const chevroletProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$1000.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -48,14 +48,14 @@ export const chevroletProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$1000.00 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

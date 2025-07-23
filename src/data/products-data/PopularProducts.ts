@@ -4,8 +4,8 @@ export const PopularProductsData = [
     modelName: "Actuator Gearboxes",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -24,8 +24,8 @@ export const PopularProductsData = [
     modelName: "Bearing Housings",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -44,8 +44,8 @@ export const PopularProductsData = [
     modelName: "Compressor Wheels",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -64,8 +64,8 @@ export const PopularProductsData = [
     modelName: "Core Assembly",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -84,8 +84,8 @@ export const PopularProductsData = [
     modelName: "_Heat_Shields",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -104,8 +104,8 @@ export const PopularProductsData = [
     modelName: "Journal Bearings",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -124,8 +124,8 @@ export const PopularProductsData = [
     modelName: " Mini Kits",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -144,8 +144,8 @@ export const PopularProductsData = [
     modelName: "Nozzle Ring Assembly",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -164,8 +164,8 @@ export const PopularProductsData = [
     modelName: "Nozzle Ring Kit",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -184,8 +184,8 @@ export const PopularProductsData = [
     modelName: "Nozzle Rings",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -204,8 +204,8 @@ export const PopularProductsData = [
     modelName: "Piston Rings",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -224,8 +224,8 @@ export const PopularProductsData = [
     modelName: "Piston Rings",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -244,8 +244,8 @@ export const PopularProductsData = [
     modelName: "Pneumatic w position",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },

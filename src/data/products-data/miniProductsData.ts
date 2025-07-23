@@ -16,7 +16,7 @@ export const miniProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
@@ -48,7 +48,7 @@ export const miniProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",

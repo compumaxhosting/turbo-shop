@@ -16,10 +16,10 @@ export const bmwProductsData = [
     rightPartNumber: "Rear 11657649291",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
-        rightOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
+        rightOriginal: "$550.00 USD",
       },
       cad: {
         leftCurrent: "$650 CAD",
@@ -48,8 +48,8 @@ export const bmwProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -80,8 +80,8 @@ export const bmwProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -112,8 +112,8 @@ export const bmwProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -144,10 +144,10 @@ export const bmwProductsData = [
     rightPartNumber: "Rear 11657849651",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
-        rightOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
+        rightOriginal: "$550.00 USD",
       },
       cad: {
         leftCurrent: "$650 CAD",
@@ -176,10 +176,10 @@ export const bmwProductsData = [
     rightPartNumber: "Rear 11658469098",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
-        rightOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
+        rightOriginal: "$550.00 USD",
       },
       cad: {
         leftCurrent: "$650 CAD",

@@ -15,14 +15,14 @@ export const tiguanProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$850.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
         leftCurrent: "$650.00 CAD",
-        leftOriginal: "$1000.00 CAD",
+        leftOriginal: "$800.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -47,14 +47,14 @@ export const tiguanProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$650.00 USD",
+        leftCurrent: "$480.00 USD",
         leftOriginal: "$850.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
         leftCurrent: "$650.00 CAD",
-        leftOriginal: "$1000.00 CAD",
+        leftOriginal: "$800.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },

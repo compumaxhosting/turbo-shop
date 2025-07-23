@@ -16,8 +16,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -48,8 +48,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -80,8 +80,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -112,8 +112,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -144,8 +144,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -176,8 +176,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -208,8 +208,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -240,10 +240,10 @@ export const audiProductsData = [
     rightPartNumber: "OEM cross reference number:RIGHT 078145702S",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
-        rightOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
+        rightOriginal: "$550.00 USD",
       },
       cad: {
         leftCurrent: "$650.00 CAD",
@@ -272,10 +272,10 @@ export const audiProductsData = [
     rightPartNumber: "RIGHT (53049880026) K04-026",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
-        rightOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
+        rightOriginal: "$550.00 USD",
       },
       cad: {
         leftCurrent: "$650.00 CAD",
@@ -304,8 +304,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -336,8 +336,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -368,8 +368,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -400,8 +400,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -432,8 +432,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -464,8 +464,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -496,8 +496,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -528,8 +528,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -560,8 +560,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -592,8 +592,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -624,9 +624,9 @@ export const audiProductsData = [
     rightPartNumber: "06J145713K Borg Warner",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
-        rightCurrent: "$452.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
+        rightCurrent: "$480.00 USD",
         rightOriginal: "",
       },
       cad: {
@@ -656,8 +656,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -688,8 +688,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -720,8 +720,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -752,8 +752,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -784,8 +784,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -816,8 +816,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -848,8 +848,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -880,8 +880,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -912,8 +912,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -944,8 +944,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -976,8 +976,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -1008,8 +1008,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -1040,8 +1040,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -1072,8 +1072,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -1104,8 +1104,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -1136,8 +1136,8 @@ export const audiProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$452.00 USD",
-        leftOriginal: "$850.00 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },

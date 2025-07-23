@@ -16,14 +16,14 @@ export const subaruProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$850 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$750 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -48,14 +48,14 @@ export const subaruProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$850 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$750 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -80,14 +80,14 @@ export const subaruProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$850 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$750 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -112,14 +112,14 @@ export const subaruProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$850 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$750 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
@@ -144,14 +144,14 @@ export const subaruProductsData = [
     rightPartNumber: "",
     prices: {
       usd: {
-        leftCurrent: "$450 USD",
-        leftOriginal: "$850 USD",
+        leftCurrent: "$480.00 USD",
+        leftOriginal: "$550.00 USD",
         rightCurrent: "",
         rightOriginal: "",
       },
       cad: {
-        leftCurrent: "$650 CAD",
-        leftOriginal: "$750 CAD",
+        leftCurrent: "$650.00 CAD",
+        leftOriginal: "$750.00 CAD",
         rightCurrent: "",
         rightOriginal: "",
       },
