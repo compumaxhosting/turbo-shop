@@ -9,6 +9,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa6";
+import Link from "next/link";
 
 const HeaderTop: React.FC = () => {
   const [mounted, setMounted] = useState(false); // To track if the component has mounted
@@ -27,10 +28,12 @@ const HeaderTop: React.FC = () => {
     <header className="bg-primary py-3 font-chakra">
       <div className="container mx-auto flex items-center justify-center gap-6 sm:gap-12 px-0">
         {/* Get a Quote Section */}
-        <div className="flex items-center gap-2">
-          <IoChatbubbleSharp className="text-white text-xl" />
-          <h1 className="text-white text-md font-bold">GET A QUOTE</h1>
-        </div>
+        <Link href="/contact-us">
+          <div className="flex items-center gap-2 cursor-pointer">
+            <IoChatbubbleSharp className="text-white text-xl" />
+            <h1 className="text-white text-md font-bold">GET A QUOTE</h1>
+          </div>
+        </Link>
         {/* Social Media Icons */}
         <div className="flex items-center gap-4">
           <FaXTwitter className="dark:text-white text-whiteOne text-lg cursor-pointer" />

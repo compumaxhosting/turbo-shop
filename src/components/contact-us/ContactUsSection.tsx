@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import FormComponent from "./FormComponent";
+import Link from "next/link";
 
 const ContactUsSection = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,9 +27,11 @@ const ContactUsSection = () => {
             Turbo Shop stands out for its specialized focus on rebuilding,
             replacing, and upgrading turbochargers.
           </p>
-          <button className="btn-primary bg-primary text-whiteOne py-4 px-4 hover:bg-opacity-90 text-xl font-semibold">
-            GET SERVICE
-          </button>
+          <Link href="/contact-us">
+            <button className="btn-primary bg-primary text-whiteOne px-4 py-4 lg:px-6 hover:bg-opacity-90 text-xl font-semibold">
+              Contact Us
+            </button>
+          </Link>
         </div>
 
         {/* Right Section */}
