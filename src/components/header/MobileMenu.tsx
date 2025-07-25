@@ -113,7 +113,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
         <div className="p-6 flex flex-col gap-4 border-t border-gray-200 dark:border-stone-800">
           {/* First Row: Icon and My Cart */}
           <div className="flex justify-between items-center font-medium text-slate-900 dark:text-whiteOne">
-            
             <TransitionLink href="/my-cart">
               <div className="flex items-center gap-2">
                 <CartButton />
@@ -125,17 +124,20 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
           </div>
           {/* Cart Button */}
           <CustomDropdown
-              handleCurrencyChange={handleCurrencyChange}
-              currency={currency}
-              setIsOpen={setIsOpen}
-              isOpen={isOpen}
-            />
+            handleCurrencyChange={handleCurrencyChange}
+            currency={currency}
+            setIsOpen={setIsOpen}
+            isOpen={isOpen}
+          />
 
           {/* Second Row: ModeToggle and Phone */}
           <div className="flex items-center gap-4">
-            <span className="text-slate-900 dark:text-whiteOne font-medium">
+            <Link
+              href="tel:4039936742"
+              className="text-slate-900 dark:text-whiteOne font-medium"
+            >
               403-993-6742
-            </span>
+            </Link>
           </div>
         </div>
       </div>
