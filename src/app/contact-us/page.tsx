@@ -17,9 +17,11 @@ const Page = () => {
         title="CONTACT US"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "contact-us" }]}
       />
-        <div className="container mx-auto gap-4 py-6 sm:py-12">
-          <FormComponent />
-        </div>
+      <div className="container mx-auto gap-4 py-6 sm:py-12">
+        
+
+        <FormComponent />
+      </div>
       <ScrollToTop />
       <Footer />
     </div>

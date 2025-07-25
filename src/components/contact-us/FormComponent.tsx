@@ -1,8 +1,23 @@
+import Link from "next/link";
 import React from "react";
+import { MdPhone } from "react-icons/md";
 
 const FormComponent = () => {
   return (
     <>
+      <div className="text-left mb-6 px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-blackOne dark:text-whiteTwo mb-4">
+          Get in Touch
+        </h2>
+        <div className="flex flex-wrap items-center justify-left gap-2 text-base sm:text-lg font-medium text-primary dark:text-whiteTwo">
+          <span>Call us at</span>
+          <MdPhone className="w-5 h-5 text-primary" />
+          <Link href="tel:4039936742" className="hover:underline text-primary">
+            403-993-6742
+          </Link>
+          <span>for help!</span>
+        </div>
+      </div>
       <form className="flex flex-col gap-4 px-4">
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex flex-col sm:w-1/2">
