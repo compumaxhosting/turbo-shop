@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation"; // Import usePathname
 
 export function SelectVehicleMake() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);  // Track mount state
+  const [isMounted, setIsMounted] = useState(false); // Track mount state
   const pathname = usePathname(); // Get the current pathname from the hook
 
   // List of vehicle makes
@@ -36,7 +36,10 @@ export function SelectVehicleMake() {
     { name: "VOLKSWAGEN", path: "/volkswagen-products" },
     { name: "VOLVO", path: "/volvo-products" },
     { name: "TIGUAN", path: "/tiguan-products" },
-    { name: "DODGE/ CHRYSLER/ EAGLE/ JEEP", path: "/dodge-chrysler-eagle-jeep" },
+    {
+      name: "DODGE/ CHRYSLER/ EAGLE/ JEEP",
+      path: "/dodge-chrysler-eagle-jeep",
+    },
   ];
 
   // Use effect to ensure the component is mounted
@@ -45,7 +48,11 @@ export function SelectVehicleMake() {
   }, []);
 
   // Dynamically set the top position based on the current path
-  const buttonTopPosition = isMounted ? (pathname === "/" ? "top-[155px]" : "top-[265px]") : "top-[155px]";  // Default to a valid position before mount
+  const buttonTopPosition = isMounted
+    ? pathname === "/"
+      ? "top-[155px]"
+      : "top-[225px]"
+    : "top-[225px]"; // Default to a valid position before mount
 
   if (!isMounted) {
     return null; // Render nothing until the component is loaded
@@ -56,10 +63,10 @@ export function SelectVehicleMake() {
       {/* Conditionally render the button to avoid scroll issues */}
       {!isOpen && (
         <button
-          className={`fixed right-0 ${buttonTopPosition} md:top-[200px] z-20 btn_hotline`}
+          className={`fixed right-0 ${buttonTopPosition} md:top-[225px] z-20 btn_hotline`}
           onClick={() => setIsOpen(true)}
         >
-          <div className="px-5 py-3 bg-primary text-whiteOne uppercase font-semibold">
+          <div className="px-3 py-2 md:px-4 md:py-2 bg-gray-300 dark:bg-whiteOne text-primary uppercase font-semibold text-xs md:text-lg">
             Select Vehicle Make
           </div>
         </button>

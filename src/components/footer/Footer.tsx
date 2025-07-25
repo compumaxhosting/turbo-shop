@@ -141,17 +141,29 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">CONTACT US</h3>
               <Link href="tel:403-993-6742">
-              <p className="dark:text-white text-blackOne md:text-base">
-                <span className="font-semibold">
-                  CALL US : <br />{" "}
-                </span>{" "}
-                403-993-6742
-              </p></Link>
+                <p className="dark:text-white text-blackOne md:text-base">
+                  <span className="font-semibold">
+                    CALL US : <br />{" "}
+                  </span>{" "}
+                  403-993-6742
+                </p>
+              </Link>
               <Link href="mailto:turboshopcanada1@gmail.com">
-              <p className="dark:text-white text-blackOne mt-2 md:text-base">
-                <span className="font-semibold">EMAIL US : <br /> </span>{" "}
-                turboshopcanada1@gmail.com
-              </p></Link>
+                <p className="dark:text-white text-blackOne mt-2 md:text-base">
+                  <span className="font-semibold">
+                    EMAIL US : <br />{" "}
+                  </span>{" "}
+                  turboshopcanada1@gmail.com
+                </p>
+              </Link>
+              <Link href="">
+                <p className="dark:text-white text-blackOne mt-2 md:text-base">
+                  <span className="font-semibold">
+                    ADDRESS : <br />{" "}
+                  </span>{" "}
+                  Calgary, Alberta.
+                </p>
+              </Link>
             </div>
           </div>
         </div>
