@@ -24,12 +24,11 @@ export const TransitionLink = ({
   ) => {
     e.preventDefault();
 
-    const body = document.querySelector("body");
-    body?.classList.add("page-transition");
-    await sleep(500);
+    const pageWrapper = document.getElementById("page-wrapper");
+    pageWrapper?.classList.add("fade-out");
+
+    await sleep(300); // allow fade-out to complete before route change
     router.push(href);
-    await sleep(500); /* enter animation */
-    body?.classList.remove("page-transition");
   };
 
   return (

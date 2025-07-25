@@ -81,7 +81,7 @@ export const PopularProductsData = [
   },
   {
     id: 5,
-    modelName: "_Heat_Shields",
+    modelName: "Heat Shields",
     prices: {
       usd: {
         leftCurrent: "$480.00 USD",

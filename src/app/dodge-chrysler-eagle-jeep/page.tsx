@@ -8,12 +8,11 @@ import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import BreadcrumbSection from "@/components/products-listing/BreadcrumbSection";
 import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
-import usePreLoaderAnimation from "@/lib/usePreLoaderAnimation";
 import ScrollToTop from "@/components/extras/ScrollToTop";
 import ShippingFeeToast from "@/components/extras/ShippingFeeToast";
 
 const Page = () => {
-  usePreLoaderAnimation();
+  
 
   return (
     <>
