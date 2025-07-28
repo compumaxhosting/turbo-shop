@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Chakra_Petch } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/extras/ThemeProvider";
+import ClientProviders from "@/components/extras/ClientProvider";
 
 const chakraPetch = Chakra_Petch({
-  weight: ["300", "400", "500", "700"], // Using 700 weight
-  style: "normal", // Using normal style
+  weight: ["300", "400", "500", "700"],
+  style: "normal",
   subsets: ["latin"],
 });
 
@@ -24,13 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${chakraPetch.className} antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );
