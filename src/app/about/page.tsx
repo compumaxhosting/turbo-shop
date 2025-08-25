@@ -1,5 +1,4 @@
 "use client";
-
 import AboutSection from "@/components/about/AboutSection";
 import ScrollToTop from "@/components/extras/ScrollToTop";
 import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
@@ -10,7 +9,6 @@ import React, { useEffect } from "react";
 
 const Page: React.FC = () => {
   useEffect(() => {
-    // Save the current scroll position before starting the animation
     const body = document.querySelector("body");
     const scrollPosition = window.scrollY;
 
