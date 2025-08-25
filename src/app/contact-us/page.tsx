@@ -1,3 +1,5 @@
+"use client";
+
 import ScrollToTop from "@/components/extras/ScrollToTop";
 import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
 import Footer from "@/components/footer/Footer";
@@ -5,9 +7,23 @@ import FormComponent from "@/components/contact-us/FormComponent";
 import Header from "@/components/header/Header";
 import HeaderTop from "@/components/header/HeaderTop";
 import BreadcrumbSection from "@/components/products-listing/BreadcrumbSection";
-import React from "react";
+import React, { useEffect } from "react";
 
-const Page = () => {
+const Page: React.FC = () => {
+  useEffect(() => {
+    const body = document.querySelector("body");
+    const scrollPosition = window.scrollY;
+
+    body?.classList.add("page-transition");
+
+    const timer = setTimeout(() => {
+      body?.classList.remove("page-transition");
+      window.scrollTo(0, scrollPosition);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div>
       <HeaderTop />
@@ -18,8 +34,6 @@ const Page = () => {
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "contact-us" }]}
       />
       <div className="container mx-auto gap-4 py-6 sm:py-12">
-        
-
         <FormComponent />
       </div>
       <ScrollToTop />

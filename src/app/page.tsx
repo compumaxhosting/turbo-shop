@@ -14,7 +14,6 @@ import ShippingFeeToast from "@/components/extras/ShippingFeeToast";
 const Page: React.FC = () => {
   
   useEffect(() => {
-    // Save the current scroll position before starting the animation
     const body = document.querySelector("body");
     const scrollPosition = window.scrollY;
 

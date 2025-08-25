@@ -91,7 +91,7 @@ body {
 @layer utilities {
   body {
     transition-property: opacity, background-color, transform, filter;
-    transition-duration: 500ms;
+    transition-duration: 300ms;
     transition-timing-function: easeInOut;
     overflow-x: hidden;
   }

@@ -13,7 +13,11 @@ export const metadata: Metadata = {
   title: "Turbo Shop",
   description:
     "We specialize in turbocharger rebuilding, replacement, upgrades, and new turbochargers.",
-  icons: "/logo-only.png",
+  icons: {
+    icon: "/logo-only.png",
+    shortcut: "/logo-only.png",
+    apple: "/logo-only.png",
+  },
 };
 
 export default function RootLayout({

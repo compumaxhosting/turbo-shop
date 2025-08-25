@@ -1,7 +1,7 @@
 "use client";
 
 import ProductsSection from "@/components/products-listing/ProductsSection";
-import React from "react";
+import React, { useEffect } from "react";
 import { dodgeProductsData } from "@/data/products-data/dodgeProductsData";
 import HeaderTop from "@/components/header/HeaderTop";
 import Header from "@/components/header/Header";
@@ -10,9 +10,24 @@ import BreadcrumbSection from "@/components/products-listing/BreadcrumbSection";
 import { SelectVehicleMake } from "@/components/extras/SelectVehicleMake";
 import ScrollToTop from "@/components/extras/ScrollToTop";
 import ShippingFeeToast from "@/components/extras/ShippingFeeToast";
+const Page: React.FC = () => {
+  useEffect(() => {
+    // Save the current scroll position before starting the animation
+    const body = document.querySelector("body");
+    const scrollPosition = window.scrollY;
 
-const Page = () => {
-  
+    // Add transition animation class
+    body?.classList.add("page-transition");
+
+    // Remove the transition class after the animation completes (500ms)
+    const timer = setTimeout(() => {
+      body?.classList.remove("page-transition");
+      window.scrollTo(0, scrollPosition); // Restore the scroll position
+    }, 500); // Match this delay with the transition duration
+
+    return () => clearTimeout(timer);
+  }, []);
+
 
   return (
     <>

@@ -13,7 +13,7 @@ const ClientProviders = ({ children }: Props) => {
     <PayPalScriptProvider
       options={{
         clientId:
-          "AXdTfqMXQPzN2FKJ2BWQUHqwSjgwh9gPgPIWGZQqHAAvPtNRf5TgcD3unZUw3W1YhEcOxnmuBsMqPxyY", // ✅ paste the actual PayPal client ID
+          "AXdTfqMXQPzN2FKJ2BWQUHqwSjgwh9gPgPIWGZQqHAAvPtNRf5TgcD3unZUw3W1YhEcOxnmuBsMqPxyY", 
         currency: "CAD",
       }}
     >
