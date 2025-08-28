@@ -1,8 +1,76 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { MdPhone } from "react-icons/md";
 
 const FormComponent = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    product: "",
+    details: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
+
+  // Handle input changes
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  // Handle form submit
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setSuccess("");
+    setError("");
+
+    if (
+      !formData.fullName ||
+      !formData.email ||
+      !formData.phone ||
+      !formData.product ||
+      !formData.details
+    ) {
+      setError("All fields are required.");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSuccess("Your inquiry has been sent successfully!");
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          product: "",
+          details: "",
+        });
+      } else {
+        setError("Something went wrong. Please try again.");
+      }
+    } catch {
+      setError("Error connecting to server.");
+    }
+
+    setLoading(false);
+  };
+
   return (
     <>
       <div className="text-left mb-6 px-4">
@@ -18,8 +86,10 @@ const FormComponent = () => {
           <span>for help!</span>
         </div>
       </div>
-      <form className="flex flex-col gap-4 px-4">
+
+      <form className="flex flex-col gap-4 px-4" onSubmit={handleSubmit}>
         <div className="flex flex-col sm:flex-row gap-4">
+          {/* Full Name */}
           <div className="flex flex-col sm:w-1/2">
             <label htmlFor="fullName" className="mb-1 text-xl font-semibold">
               Full Name <span className="text-primary">*</span>
@@ -27,11 +97,14 @@ const FormComponent = () => {
             <input
               type="text"
               id="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
               placeholder="Enter your full name"
-              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring no-focus-ring"
+              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
             />
           </div>
 
+          {/* Email */}
           <div className="flex flex-col sm:w-1/2">
             <label htmlFor="email" className="mb-1 text-xl font-semibold">
               Email Address <span className="text-primary">*</span>
@@ -39,6 +112,8 @@ const FormComponent = () => {
             <input
               type="email"
               id="email"
+              value={formData.email}
+              onChange={handleChange}
               placeholder="Enter your email address"
               className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
             />
@@ -46,6 +121,7 @@ const FormComponent = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
+          {/* Phone */}
           <div className="flex flex-col sm:w-1/2">
             <label htmlFor="phone" className="mb-1 text-xl font-semibold">
               Phone Number <span className="text-primary">*</span>
@@ -53,20 +129,27 @@ const FormComponent = () => {
             <input
               type="tel"
               id="phone"
+              value={formData.phone}
+              onChange={handleChange}
               placeholder="Enter your phone number"
               className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
             />
           </div>
 
+          {/* Product */}
           <div className="flex flex-col sm:w-1/2">
             <label htmlFor="product" className="mb-1 text-xl font-semibold">
               Product of Interest <span className="text-primary">*</span>
             </label>
             <select
               id="product"
+              value={formData.product}
+              onChange={handleChange}
               className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
             >
-              <option className="dark:bg-blackOne">Select a product</option>
+              <option value="" className="dark:bg-blackOne">
+                Select a product
+              </option>
               <option className="dark:bg-blackOne">Turbochargers</option>
               <option className="dark:bg-blackOne">Turbo Parts</option>
               <option className="dark:bg-blackOne">
@@ -80,6 +163,7 @@ const FormComponent = () => {
           </div>
         </div>
 
+        {/* Details */}
         <div className="flex flex-col w-full">
           <label htmlFor="details" className="mb-1 text-xl font-semibold">
             Details or Inquiry <span className="text-primary">*</span>
@@ -87,16 +171,24 @@ const FormComponent = () => {
           <textarea
             id="details"
             rows={4}
+            value={formData.details}
+            onChange={handleChange}
             placeholder="Provide details about your inquiry or order"
             className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
           />
         </div>
 
+        {/* Status messages */}
+        {error && <p className="text-red-500">{error}</p>}
+        {success && <p className="text-green-500">{success}</p>}
+
+        {/* Button */}
         <button
           type="submit"
+          disabled={loading}
           className="btn-primary bg-primary text-whiteOne py-4 px-12 hover:bg-opacity-90 w-fit text-xl font-semibold"
         >
-          SUBMIT FORM
+          {loading ? "Sending..." : "SUBMIT FORM"}
         </button>
       </form>
     </>
