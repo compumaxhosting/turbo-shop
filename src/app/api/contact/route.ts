@@ -15,14 +15,14 @@ export async function POST(req: Request) {
       );
     }
 
-    const recipients =
-      process.env.TO_EMAIL?.split(",").map((email) => email.trim()) || [];
-
     const data = await resend.emails.send({
-      from: process.env.FROM_EMAIL as string,
-      to: recipients, // array of emails
-      subject: `New Inquiry from ${fullName}`,
-      html: `
+  from: process.env.FROM_EMAIL as string, // e.g. "onboarding@resend.dev" or your verified domain
+  to: [
+    process.env.TO_EMAIL_1 as string,
+    process.env.TO_EMAIL_2 as string,
+  ],
+  subject: `New Inquiry from ${fullName}`,
+  html: `
     <h2>New Contact Form Submission</h2>
     <p><strong>Full Name:</strong> ${fullName}</p>
     <p><strong>Email:</strong> ${email}</p>
@@ -30,7 +30,8 @@ export async function POST(req: Request) {
     <p><strong>Product of Interest:</strong> ${product}</p>
     <p><strong>Details:</strong> ${details}</p>
   `,
-    });
+});
+
 
 
     return NextResponse.json({ success: true, data });
