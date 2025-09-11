@@ -1,13 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion"; // Import framer-motion for animation
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
 
 const HeroSection = () => {
-  const [mounted, setMounted] = useState(false); // To track if the component has mounted
-  const { theme } = useTheme(); // Get the current theme
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -36,13 +34,14 @@ const HeroSection = () => {
   return (
     <section className="relative hero-img bg-whiteOne dark:bg-blackOne text-blackTwo dark:text-whiteOne px-6 md:px-16 py-20 pb-0 lg:py-24 2xl:py-32 overflow-hidden">
       {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-right-center md:bg-right-bottom"
-        style={{
-          backgroundImage: "url('/tire-img.png')",
-          opacity: theme === "dark" ? 0.2 : 0.2, // Adjust opacity based on theme
-        }}
-      ></div>
+      <Image
+        src="/tire-img.avif"
+        alt="Turbo Background"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-right-bottom opacity-20"
+      />
 
       {/* Content Wrapper */}
       <div className="relative max-w-7xl 2xl:max-w-[90rem] mx-auto flex flex-col lg:flex-row items-center gap-10 z-10">
@@ -61,7 +60,7 @@ const HeroSection = () => {
               className="text-lg text-stone-700 dark:text-gray-300 mt-4"
               initial={{ filter: "blur(10px)", opacity: 0 }}
               animate={{ filter: "blur(0)", opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.5 }} // Apply blur effect on mount
+              transition={{ duration: 0.5, delay: 1.5 }}
             >
               We specialize in turbocharger rebuilding, replacement, upgrades,
               and new turbochargers.
