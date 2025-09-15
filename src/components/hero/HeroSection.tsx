@@ -13,7 +13,6 @@ const HeroSection = () => {
 
   if (!mounted) return null; // Prevents hydration errors
 
-  // Function to split the text into individual characters for animation
   const splitText = (text: string) => {
     return text.split("").map((char, index) => (
       <motion.span
@@ -35,7 +34,7 @@ const HeroSection = () => {
     <section className="relative hero-img bg-whiteOne dark:bg-blackOne text-blackTwo dark:text-whiteOne px-6 md:px-16 py-20 pb-0 lg:py-24 2xl:py-32 overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/tire-img.avif"
+        src="/tire-img.png"
         alt="Turbo Background"
         fill
         priority

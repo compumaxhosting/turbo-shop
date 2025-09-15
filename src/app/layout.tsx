@@ -3,10 +3,11 @@ import { Chakra_Petch } from "next/font/google";
 import "./globals.css";
 import ClientProviders from "@/components/extras/ClientProvider";
 
+// Only load the font weights you actually need (lighter = faster)
 const chakraPetch = Chakra_Petch({
-  weight: ["300", "400", "500", "700"],
-  style: "normal",
+  weight: ["400", "700"], // dropped 300 & 500 unless you really need them
   subsets: ["latin"],
+  display: "swap", // improves performance by avoiding invisible text during load
 });
 
 export const metadata: Metadata = {
