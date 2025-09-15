@@ -1,14 +1,14 @@
-"use client"; // Ensure this runs in a client component
+"use client";
 
 import React, { useState, useEffect } from "react";
-import { Menu } from "lucide-react"; // Removed X, as it's now in MobileMenu
+import { Menu } from "lucide-react";
 import { ModeToggle } from "./ModeToggle";
 import Image from "next/image";
-import MobileMenu from "./MobileMenu"; // Import the MobileMenu component
+import MobileMenu from "./MobileMenu";
 import { useTheme } from "next-themes";
 import { TransitionLink } from "@/lib/TransitionLink";
 import Link from "next/link";
-import useCurrencyStore from "@/store/useCurrencyStore"; // Assuming Zustand store is already set up
+import useCurrencyStore from "@/store/useCurrencyStore";
 import CustomDropdown from "./CustomDropdown";
 import CartButton from "./CartButton";
 
@@ -16,70 +16,72 @@ const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [mounted, setMounted] = useState(false); // To track if the component has mounted
-  const { theme } = useTheme(); // Get the current theme
-
-  const { currency, setCurrency } = useCurrencyStore(); // Zustand currency state
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
+  const { currency, setCurrency } = useCurrencyStore();
 
   useEffect(() => {
-    // Once mounted, set mounted state to true
     setMounted(true);
 
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 0);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Prevent rendering of theme-dependent content on the server-side
-  if (!mounted) {
-    return null;
-  }
+  if (!mounted) return null;
 
-  // Custom Dropdown for Currency Selection
   const handleCurrencyChange = (value: string) => {
-    setCurrency(value); // Update global currency state via Zustand
-    setIsOpen(false); // Close dropdown after selection
+    setCurrency(value);
+    setIsOpen(false);
   };
 
   return (
     <>
       {/* Header */}
       <header
-        className={`sticky top-0 z-20 bg-whiteTwo/40 border-b border-gray-200 dark:border-stone-800 backdrop-blur-xl text-black dark:text-white transition-all duration-300 ${
+        className={`sticky top-0 z-20 border-b border-gray-200 dark:border-stone-800 backdrop-blur-xl text-black dark:text-white transition-[padding,background] duration-300 ${
           isScrolled
-            ? "py-4 lg:py-3 dark:bg-blackTwo/60"
-            : "py-4 lg:py-6 dark:bg-transparent"
+            ? "py-3 dark:bg-blackTwo/60 bg-whiteTwo/70"
+            : "py-6 dark:bg-transparent bg-whiteTwo/40"
         }`}
       >
         <div className="container mx-auto flex items-center justify-between px-4">
           {/* Logo */}
-          <Link href="/">
-            <div className="text-xl font-bold">
-              {/* Conditionally render based on the current theme */}
-              {theme === "dark" ? (
-                <Image
-                  src="/logo1-dark.png"
-                  alt="Turbo Shop Logo Dark"
-                  width={240}
-                  height={50}
-                  className="w-full max-w-2xl"
-                />
-              ) : (
-                <Image
-                  src="/logo1-light.png"
-                  alt="Turbo Shop Logo Light"
-                  width={240}
-                  height={50}
-                  className="w-full max-w-2xl"
-                />
-              )}
+          <Link href="/" aria-label="Go to homepage">
+            <div className="relative w-[160px] h-[40px]">
+              {/* Preload both logos and just toggle opacity */}
+              <Image
+                src="/logo1-light.png"
+                alt="Turbo Shop Logo Light"
+                fill
+                priority
+                className={`object-contain transition-opacity duration-300 ${
+                  theme === "dark" ? "opacity-0" : "opacity-100"
+                }`}
+              />
+              <Image
+                src="/logo1-dark.png"
+                alt="Turbo Shop Logo Dark"
+                fill
+                priority
+                className={`object-contain absolute inset-0 transition-opacity duration-300 ${
+                  theme === "dark" ? "opacity-100" : "opacity-0"
+                }`}
+              />
             </div>
           </Link>
 
-          {/* Desktop Navigation - Hidden on small screens */}
+          {/* Desktop Navigation */}
           <nav className="hidden xl:flex space-x-8 font-medium xl:text-lg 2xl:text-xl">
             <TransitionLink href="/">HOME</TransitionLink>
             <TransitionLink href="/universal-products">
@@ -89,7 +91,7 @@ const Header: React.FC = () => {
             <TransitionLink href="/contact-us">CONTACT US</TransitionLink>
           </nav>
 
-          {/* Right Side (Cart, Currency, Theme, Phone) - Hidden on small screens */}
+          {/* Right Side */}
           <div className="hidden xl:flex items-center space-x-4">
             <TransitionLink href="/my-cart">
               <CartButton />
@@ -108,7 +110,7 @@ const Header: React.FC = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button (Visible on <xl screens) */}
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsSidebarOpen(true)}
             className="xl:hidden text-black dark:text-white hover:text-primary dark:hover:text-primaryhover transition"
@@ -118,7 +120,7 @@ const Header: React.FC = () => {
         </div>
       </header>
 
-      {/* MobileMenu Component */}
+      {/* MobileMenu */}
       <MobileMenu
         handleCurrencyChange={handleCurrencyChange}
         currency={currency}
