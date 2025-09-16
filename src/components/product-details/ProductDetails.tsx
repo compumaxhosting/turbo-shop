@@ -22,12 +22,12 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product, images }) => {
         {/* Product Details Section */}
         <div className="w-full xl:w-7/12 px-4">
           <div className="space-y-4">
-            <h1 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">
+            <h4 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">
               {product.brand} {product.modelName}
-            </h1>
-            <h2 className="text-xl sm:text-xl text-gray-700 dark:text-gray-300">
+            </h4>
+            <h5 className="text-xl sm:text-xl text-gray-700 dark:text-gray-300">
               {product.subTitle}
-            </h2>
+            </h5>
 
             <p className="text-base sm:text-md text-gray-700 dark:text-gray-300">
               {product.description}

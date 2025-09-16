@@ -62,9 +62,9 @@ const BreadcrumbSection: React.FC<BreadcrumbSectionProps> = ({
       </div>
 
       {/* Title */}
-      <h1 className="relative z-10 text-2xl sm:text-5xl md:text-7xl font-bold mt-4">
+      <p className="relative z-10 text-2xl sm:text-5xl md:text-7xl font-bold mt-4">
         {title}
-      </h1>
+      </p>
     </section>
   );
 };

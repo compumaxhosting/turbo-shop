@@ -44,8 +44,8 @@ const ProductPage: React.FC<ProductPageProps> = ({ params }) => {
     <div>
       <HeaderTop />
       <Header />
-      <ProductDetails product={product} images={productImages} />
       <SelectVehicleMake />
+      <ProductDetails product={product} images={productImages} />
       <ScrollToTop />
       <Footer />
     </div>

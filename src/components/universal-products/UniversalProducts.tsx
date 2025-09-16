@@ -9,9 +9,9 @@ const UniversalProducts: React.FC = () => {
   return (
     <section>
       <div className="dark:bg-blackTwo bg-whiteTwo py-10">
-        <h2 className="text-center text-2xl md:4xl font-bold mb-6 px-6">
+        <h5 className="text-center text-2xl md:4xl font-bold mb-6 px-6">
           UNIVERSAL PRODUCTS WE PROVIDE
-        </h2>
+        </h5>
 
         <div className="container mx-auto">
           <div className="mx-4 bg-whiteOne dark:bg-blackOne">

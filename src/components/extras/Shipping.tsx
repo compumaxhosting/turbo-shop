@@ -14,9 +14,9 @@ const Shipping: React.FC = () => {
         </div>
 
         <div>
-          <h2 className="text-xl sm:text-2xl font-bold text-primary mb-2">
+          <h3 className="text-xl sm:text-2xl font-bold text-primary mb-2">
             Shipping & Repair Notice
-          </h2>
+          </h3>
           <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4">
             For all product repairs, an additional{" "}
             <span className="font-semibold text-black dark:text-white">

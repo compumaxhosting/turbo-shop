@@ -20,9 +20,9 @@ const ContactUsSection = () => {
       <div className="container mx-auto flex flex-col lg:flex-row gap-4">
         {/* Left Section */}
         <div className="w-full lg:w-4/12 flex flex-col bg-whiteOne dark:bg-blackOne p-12 h-fit mb-4 lg:mb-0">
-          <h2 className="text-3xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-4">
             WE MAKE TURBO REPAIR MORE CONVENIENT
-          </h2>
+          </h1>
           <p className="mb-6 text-lg">
             Turbo Shop stands out for its specialized focus on rebuilding,
             replacing, and upgrading turbochargers.

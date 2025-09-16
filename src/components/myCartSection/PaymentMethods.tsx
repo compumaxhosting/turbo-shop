@@ -17,7 +17,7 @@ const PaymentMethods: React.FC<PaymentMethodsProps> = ({ total }) => {
       }}
     >
       <div className="mt-4">
-        <h3 className="text-lg font-semibold mb-2">Pay with PayPal</h3>
+        <h1 className="text-lg font-semibold mb-2">Pay with PayPal</h1>
         <PayPalButtons
           style={{ layout: "vertical", shape: "rect" }}
           createOrder={(data, actions) => {

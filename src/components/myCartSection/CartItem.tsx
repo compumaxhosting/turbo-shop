@@ -79,12 +79,12 @@ const CartItem: React.FC<CartItemProps> = ({ cartItem, prices, sideLabel }) => {
             <Link
               href={`/${product.brand.toLowerCase()}-products/${product.id}`}
             >
-              <h2 className="text-center xl:text-left text-lg font-semibold text-gray-800 dark:text-gray-200">
+              <h1 className="text-center xl:text-left text-lg font-semibold text-gray-800 dark:text-gray-200">
                 <span className="text-xl text-primary block">
                   {product.brand}
                 </span>
                 {product.modelName}
-              </h2>
+              </h1>
             </Link>
           ) : (
             <h2 className="text-center xl:text-left text-lg font-semibold text-gray-800 dark:text-gray-200">

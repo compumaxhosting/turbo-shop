@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* Quick Links */}
             <div>
-              <h3 className="text-2xl font-semibold mb-6">QUICK LINKS</h3>
+              <p className="text-2xl font-semibold mb-6">QUICK LINKS</p>
               <ul className="space-y-2">
                 <li>
                   <Link
@@ -102,7 +102,7 @@ const Footer = () => {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-2xl font-semibold mb-6">FOLLOW US</h3>
+              <p className="text-2xl font-semibold mb-6">FOLLOW US</p>
               <p className="dark:text-white text-blackOne text-sm md:text-lg font-normal font-sans">
                 Stay connected with us on social media for the latest updates
                 and offers.
@@ -139,7 +139,7 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div>
-              <h3 className="text-2xl font-semibold mb-6">CONTACT US</h3>
+              <p className="text-2xl font-semibold mb-6">CONTACT US</p>
               <Link href="tel:403-993-6742">
                 <p className="dark:text-white text-blackOne md:text-base">
                   <span className="font-semibold">

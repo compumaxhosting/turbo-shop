@@ -18,7 +18,7 @@ const AnimatedProgressBar: React.FC<AnimatedProgressBarProps> = ({ label, percen
 
   return (
     <section className="mb-6">
-      <h4 className="text-lg text-blackOne dark:text-gray-50 mb-2">{label}</h4>
+      <h1 className="text-lg text-blackOne dark:text-gray-50 mb-2">{label}</h1>
       <div className="border-2 border-stone-700">
       <div className="flex items-center relative w-full bg-stone-700 h-5">
         <div

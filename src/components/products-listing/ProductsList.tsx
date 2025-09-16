@@ -71,12 +71,12 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-primary dark:text-primary mt-2 text-md font-semibold">
+                  <h1 className="text-primary dark:text-primary mt-2 text-md font-semibold">
                     {product.brand}
-                  </h3>
-                  <h3 className="text-blackTwo dark:text-white mt-2 text-xl font-semibold">
+                  </h1>
+                  <h2 className="text-blackTwo dark:text-white mt-2 text-xl font-semibold">
                     {product.modelName}
-                  </h3>
+                  </h2>
                   <h3 className="text-primary dark:text-primary mt-1 text-sm font-semibold">
                     {product.subTitle || "\u00A0"}
                   </h3>

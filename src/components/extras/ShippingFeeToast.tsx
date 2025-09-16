@@ -18,7 +18,7 @@ const ShippingFeeToast: React.FC<ShippingFeeToastProps> = ({
 
   useEffect(() => {
     const showTimer = setTimeout(() => setIsVisible(true), 3000);
-    const hideTimer = setTimeout(() => setIsVisible(false), 10000); // 15 secs after appearing
+    const hideTimer = setTimeout(() => setIsVisible(false), 10000); // 10 secs after appearing
 
     return () => {
       clearTimeout(showTimer);
@@ -34,12 +34,13 @@ const ShippingFeeToast: React.FC<ShippingFeeToastProps> = ({
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 50 }}
           transition={{ duration: 0.4 }}
-          className="fixed bottom-4 right-4 z-20 bg-whiteTwo dark:bg-blackTwo shadow-lg rounded-2xl p-4 border border-gray-200 dark:border-stone-800"
+          className="fixed bottom-4 right-4 bg-whiteTwo dark:bg-blackTwo shadow-lg rounded-2xl p-4 border border-gray-200 dark:border-stone-800"
+          style={{ zIndex: 9999 }} 
         >
           <div className="flex justify-between items-center gap-6">
-            <h3 className="text-lg sm:text-xl lg:text-xl xl:text-2xl font-semibold text-blackTwo dark:text-whiteTwo">
+            <h4 className="text-lg sm:text-xl lg:text-xl xl:text-2xl font-semibold text-blackTwo dark:text-whiteTwo">
               {heading}
-            </h3>
+            </h4>
             <button
               onClick={() => setIsVisible(false)}
               className="text-gray-700 dark:text-gray-400 hover:text-black dark:hover:text-white"

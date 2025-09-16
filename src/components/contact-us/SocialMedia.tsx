@@ -31,9 +31,9 @@ const socialLinks = [
 export default function SocialMedia() {
   return (
     <section className="bg-[#f5f0e8] py-10 text-center">
-      <h2 className="text-2xl font-semibold text-[#0d2b39] mb-8">
+      <h1 className="text-2xl font-semibold text-[#0d2b39] mb-8">
         Connect with Us
-      </h2>
+      </h1>
       <div className="flex justify-center gap-10 flex-wrap">
         {socialLinks.map((item) => (
           <a

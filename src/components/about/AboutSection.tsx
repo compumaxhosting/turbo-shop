@@ -8,9 +8,9 @@ const AboutSection: React.FC = () => {
         
         {/* Content Div */}
         <div className="lg:w-1/2 sm:text-justify sm:px-24 lg:pr-14">
-          <h2 className="text-4xl font-extrabold dark:text-gray-50 text-blackOne mb-4">
+          <h3 className="text-4xl font-extrabold dark:text-gray-50 text-blackOne mb-4">
             ABOUT TURBOSHOP
-          </h2>
+          </h3>
           <p className="text-lg dark:text-gray-200 text-blackOne mb-6 font-sans font-normal">
             At TurboShop, we specialize in providing high-performance turbochargers, cartridges, and components for all vehicle makes and models. With our expert team and commitment to quality, we deliver solutions that enhance your vehicle&apos;s efficiency and power.
           </p>

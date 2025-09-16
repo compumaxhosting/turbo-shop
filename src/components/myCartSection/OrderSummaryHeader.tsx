@@ -54,9 +54,9 @@ const OrderSummaryHeader: React.FC<OrderSummaryHeaderProps> = ({ isCouponApplied
 
   return (
     <>
-      <h2 className="text-lg font-bold mb-4 dark:text-gray-200 text-gray-800">
+      <h1 className="text-lg font-bold mb-4 dark:text-gray-200 text-gray-800">
         Order Summary
-      </h2>
+      </h1>
       <div className="flex justify-between mb-2">
         <p className="font-medium dark:text-gray-300 text-gray-700">
           Cart Value:

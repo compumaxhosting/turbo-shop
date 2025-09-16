@@ -74,9 +74,9 @@ const FormComponent = () => {
   return (
     <>
       <div className="text-left mb-6 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-blackOne dark:text-whiteTwo mb-4">
+        <h4 className="text-3xl md:text-4xl font-bold text-blackOne dark:text-whiteTwo mb-4">
           Get in Touch
-        </h2>
+        </h4>
         <div className="flex flex-wrap items-center justify-left gap-2 text-base sm:text-lg font-medium text-primary dark:text-whiteTwo">
           <span>Call us at</span>
           <MdPhone className="w-5 h-5 text-primary" />
