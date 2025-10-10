@@ -73,25 +73,36 @@ const FormComponent = () => {
 
   return (
     <>
+      {/* Section Heading */}
       <div className="text-left mb-6 px-4">
-        <h4 className="text-3xl md:text-4xl font-bold text-blackOne dark:text-whiteTwo mb-4">
+        {/* Changed h4 → h2 to maintain logical heading hierarchy */}
+        <h2 className="text-3xl md:text-4xl font-bold text-blackOne dark:text-whiteTwo mb-4">
           Get in Touch
-        </h4>
+        </h2>
         <div className="flex flex-wrap items-center justify-left gap-2 text-base sm:text-lg font-medium text-primary dark:text-whiteTwo">
           <span>Call us at</span>
-          <MdPhone className="w-5 h-5 text-primary" />
-          <Link href="tel:4039936742" className="hover:underline text-primary">
+          <MdPhone className="w-5 h-5 text-primary" aria-hidden="true" />
+          <Link
+            href="tel:4039936742"
+            className="hover:underline text-primary"
+            aria-label="Call us at 403-993-6742"
+          >
             403-993-6742
           </Link>
           <span>for help!</span>
         </div>
       </div>
 
-      <form className="flex flex-col gap-4 px-4" onSubmit={handleSubmit}>
+      {/* Contact Form */}
+      <form
+        className="flex flex-col gap-4 px-4"
+        onSubmit={handleSubmit}
+        aria-label="Contact form"
+      >
         <div className="flex flex-col sm:flex-row gap-4">
           {/* Full Name */}
           <div className="flex flex-col sm:w-1/2">
-            <label htmlFor="fullName" className="mb-1 text-xl font-semibold">
+            <label htmlFor="fullName" className="mb-1 text-lg font-semibold">
               Full Name <span className="text-primary">*</span>
             </label>
             <input
@@ -100,13 +111,14 @@ const FormComponent = () => {
               value={formData.fullName}
               onChange={handleChange}
               placeholder="Enter your full name"
-              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              className="border-b text-base border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              required
             />
           </div>
 
           {/* Email */}
           <div className="flex flex-col sm:w-1/2">
-            <label htmlFor="email" className="mb-1 text-xl font-semibold">
+            <label htmlFor="email" className="mb-1 text-lg font-semibold">
               Email Address <span className="text-primary">*</span>
             </label>
             <input
@@ -115,7 +127,8 @@ const FormComponent = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Enter your email address"
-              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              className="border-b text-base border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              required
             />
           </div>
         </div>
@@ -123,7 +136,7 @@ const FormComponent = () => {
         <div className="flex flex-col sm:flex-row gap-4">
           {/* Phone */}
           <div className="flex flex-col sm:w-1/2">
-            <label htmlFor="phone" className="mb-1 text-xl font-semibold">
+            <label htmlFor="phone" className="mb-1 text-lg font-semibold">
               Phone Number <span className="text-primary">*</span>
             </label>
             <input
@@ -132,20 +145,22 @@ const FormComponent = () => {
               value={formData.phone}
               onChange={handleChange}
               placeholder="Enter your phone number"
-              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              className="border-b text-base border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              required
             />
           </div>
 
           {/* Product */}
           <div className="flex flex-col sm:w-1/2">
-            <label htmlFor="product" className="mb-1 text-xl font-semibold">
+            <label htmlFor="product" className="mb-1 text-lg font-semibold">
               Product of Interest <span className="text-primary">*</span>
             </label>
             <select
               id="product"
               value={formData.product}
               onChange={handleChange}
-              className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              className="border-b text-base border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+              required
             >
               <option value="" className="dark:bg-blackOne">
                 Select a product
@@ -165,7 +180,7 @@ const FormComponent = () => {
 
         {/* Details */}
         <div className="flex flex-col w-full">
-          <label htmlFor="details" className="mb-1 text-xl font-semibold">
+          <label htmlFor="details" className="mb-1 text-lg font-semibold">
             Details or Inquiry <span className="text-primary">*</span>
           </label>
           <textarea
@@ -174,19 +189,28 @@ const FormComponent = () => {
             value={formData.details}
             onChange={handleChange}
             placeholder="Provide details about your inquiry or order"
-            className="border-b text-lg border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+            className="border-b text-base border-gray-300 dark:border-stone-700/50 bg-transparent p-2 pl-0 text-blackOne dark:text-whiteTwo no-focus-ring"
+            required
           />
         </div>
 
         {/* Status messages */}
-        {error && <p className="text-red-500">{error}</p>}
-        {success && <p className="text-green-500">{success}</p>}
+        {error && (
+          <p className="text-red-500" role="alert">
+            {error}
+          </p>
+        )}
+        {success && (
+          <p className="text-green-500" role="status">
+            {success}
+          </p>
+        )}
 
-        {/* Button */}
+        {/* Submit Button */}
         <button
           type="submit"
           disabled={loading}
-          className="btn-primary bg-primary text-whiteOne py-4 px-12 hover:bg-opacity-90 w-fit text-xl font-semibold"
+          className="btn-primary bg-primary text-whiteOne py-4 px-12 hover:bg-opacity-90 w-fit text-lg font-semibold"
         >
           {loading ? "Sending..." : "SUBMIT FORM"}
         </button>
