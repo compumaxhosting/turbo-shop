@@ -20,6 +20,7 @@ const ContactUsSection = () => {
       <div className="container mx-auto flex flex-col lg:flex-row gap-4">
         {/* Left Section */}
         <div className="w-full lg:w-4/12 flex flex-col bg-whiteOne dark:bg-blackOne p-12 h-fit mb-4 lg:mb-0">
+          {/* Main page heading */}
           <h1 className="text-3xl font-bold mb-4">
             WE MAKE TURBO REPAIR MORE CONVENIENT
           </h1>
@@ -36,6 +37,7 @@ const ContactUsSection = () => {
 
         {/* Right Section */}
         <div className="w-full lg:w-8/12 py-0 rounded-lg">
+          {/* Secondary heading (h2 after h1) */}
           <h2 className="text-4xl font-bold mb-4 p-6 py-0">
             CONTACT US FOR TURBO SOLUTIONS
           </h2>
@@ -45,6 +47,7 @@ const ContactUsSection = () => {
             will respond promptly.
           </p>
           <div className="px-2">
+            {/* Form will likely contain smaller headings (use h3 inside FormComponent if needed) */}
             <FormComponent />
           </div>
         </div>

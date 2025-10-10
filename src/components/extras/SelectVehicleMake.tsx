@@ -66,7 +66,7 @@ export function SelectVehicleMake() {
           className={`fixed right-0 ${buttonTopPosition} md:top-[225px] z-20 btn_hotline`}
           onClick={() => setIsOpen(true)}
         >
-          <div className="px-3 py-2 md:px-4 md:py-2 bg-gray-300 dark:bg-whiteOne text-primary uppercase font-semibold text-xs md:text-lg">
+          <div className="px-3 py-2 md:px-4 md:py-2 bg-gray-100 dark:bg-white text-black uppercase font-bold text-xs md:text-lg">
             Select Vehicle Make
           </div>
         </button>

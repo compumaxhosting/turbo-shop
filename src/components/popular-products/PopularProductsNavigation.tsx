@@ -12,19 +12,22 @@ const PopularProductsNavigation: React.FC<PopularProductsNavigationProps> = ({ s
     <div className="flex gap-4">
       <ul className="flex justify-center items-center gap-4 carousel_arrow text-md">
         <li>
-          <button
+         <button
             className="flex justify-center items-center"
             onClick={scrollPrev}
+            aria-label="Scroll to previous products"
           >
-            <LucideChevronLeft name="ChevronLeft" strokeWidth={2} size={30} />
+            <LucideChevronLeft strokeWidth={2} size={30} />
           </button>
+
         </li>
         <li>
-          <button
+         <button
             className="flex justify-center items-center"
             onClick={scrollNext}
+            aria-label="Scroll to next products"
           >
-            <LucideChevronRight name="ChevronRight" strokeWidth={2} size={30} />
+            <LucideChevronRight strokeWidth={2} size={30} />
           </button>
         </li>
       </ul>

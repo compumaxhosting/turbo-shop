@@ -27,20 +27,28 @@ const HeaderTop: React.FC = () => {
   return (
     <header className="bg-primary py-3 font-chakra">
       <div className="container mx-auto flex items-center justify-center gap-6 sm:gap-12 px-0">
-        {/* Get a Quote Section */}
         <Link href="/contact-us">
           <div className="flex items-center gap-2 cursor-pointer">
             <IoChatbubbleSharp className="text-white text-xl" />
-            <h1 className="text-white text-md font-bold">GET A QUOTE</h1>
+            <h1 className="text-white text-md md:text-lg font-semibold">GET A QUOTE</h1>
           </div>
         </Link>
         {/* Social Media Icons */}
         <div className="flex items-center gap-4">
-          <FaXTwitter className="dark:text-white text-whiteOne text-lg cursor-pointer" />
-          <FaFacebookF className="dark:text-white text-whiteOne text-lg cursor-pointer" />
-          <FaInstagram className="dark:text-white text-whiteOne text-lg cursor-pointer" />
-          <FaYoutube className="dark:text-white text-whiteOne text-lg cursor-pointer" />
+          <Link href="https://twitter.com" target="_blank" aria-label="Visit our Twitter page">
+            <FaXTwitter className="dark:text-white text-white text-lg cursor-pointer" />
+          </Link>
+          <Link href="https://www.facebook.com/Turboshoptf" target="_blank" aria-label="Visit our Facebook page">
+            <FaFacebookF className="dark:text-white text-white text-lg cursor-pointer" />
+          </Link>
+          <Link href="https://www.instagram.com/turboshoptf" target="_blank" aria-label="Visit our Instagram page">
+            <FaInstagram className="dark:text-white text-white text-lg cursor-pointer" />
+          </Link>
+          <Link href="https://www.youtube.com" target="_blank" aria-label="Visit our YouTube channel">
+            <FaYoutube className="dark:text-white text-white text-lg cursor-pointer" />
+          </Link>
         </div>
+
       </div>
     </header>
   );

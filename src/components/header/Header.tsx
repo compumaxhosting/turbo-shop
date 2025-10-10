@@ -110,13 +110,16 @@ const Header: React.FC = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsSidebarOpen(true)}
-            className="xl:hidden text-black dark:text-white hover:text-primary dark:hover:text-primaryhover transition"
-          >
-            <Menu className="h-8 w-8" />
-          </button>
+        <button
+  onClick={() => setIsSidebarOpen(true)}
+  aria-label="Open mobile menu"
+  className="xl:hidden flex items-center gap-2 text-black dark:text-white hover:text-primary dark:hover:text-primaryhover transition"
+>
+  <Menu className="h-6 w-6" />
+</button>
+
+
+
         </div>
       </header>
 
