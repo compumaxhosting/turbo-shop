@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#d16527",
+        primary: "#c45e23",
         primaryhover: "#b3521a",
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -24,7 +24,7 @@ export default {
       },
 
       boxShadow: {
-        "dark": "0 2px 50px rgba(0, 0, 0, 0.7)", // Custom dark shadow
+        dark: "0 2px 50px rgba(0, 0, 0, 0.7)", // Custom dark shadow
       },
       screens: {
         xs: "475px", // Add the xs breakpoint for very small screens
