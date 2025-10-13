@@ -84,7 +84,7 @@ const FormComponent = () => {
           <MdPhone className="w-5 h-5 text-primary" aria-hidden="true" />
           <Link
             href="tel:4039936742"
-            className="hover:underline text-primary"
+            className="hover:underline text-#9c451b dark:text-#d46a27"
             aria-label="Call us at 403-993-6742"
           >
             403-993-6742
