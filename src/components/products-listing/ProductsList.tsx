@@ -41,7 +41,7 @@ const ProductsList: React.FC<ProductsListProps> = ({ productsData }) => {
                 onClick={handleLinkClick}
                 className="block"
               >
-                <div className="bg-whiteOne dark:bg-blackOne text-white p-4 border border-primary dark:border-primary shadow-xl dark:shadow-dark hover:ring-2 hover:ring-primary transition duration-200">
+                <div className="bg-whiteOne dark:bg-blackOne text-white p-3 m-1 border border-primary dark:border-primary shadow-xl dark:shadow-dark hover:ring-2 hover:ring-primary transition duration-200">
                   <div className="relative">
                     {/* Aspect Ratio Wrapper (for Image) */}
                     <div className="relative flex justify-center items-center aspect-video w-full bg-whiteTwo dark:bg-blackTwo border border-gray-200 dark:border-stone-800">
