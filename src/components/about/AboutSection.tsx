@@ -17,9 +17,9 @@ const AboutSection: React.FC = () => {
 
           <div className="mt-8">
             {/* First Progress Bar */}
-            <AnimatedProgressBar label="Quality Assurance" percentage={96} />
+            <AnimatedProgressBar label="Quality Assurance" percentage={99} />
             {/* Second Progress Bar */}
-            <AnimatedProgressBar label="Customer Satisfaction" percentage={90} />
+            <AnimatedProgressBar label="Customer Satisfaction" percentage={99} />
           </div>
         </div>
 

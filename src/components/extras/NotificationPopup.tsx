@@ -27,7 +27,7 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({
 
   return (
     <div
-      className={`fixed bottom-8 inset-x-0 flex justify-center z-50 mx-2 duration-300 ${
+      className={`fixed bottom-8 inset-x-0 flex justify-center z-[9999] mx-2 duration-300 ${
         visible ? "popup-enter" : "popup-exit"
       }`}
       role="alert"
