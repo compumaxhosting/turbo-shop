@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true, // Helps catch errors early
-  swcMinify: true, // Faster builds and smaller bundles
   images: {
     formats: ["image/avif", "image/webp"], // Optimize images for performance
     remotePatterns: [

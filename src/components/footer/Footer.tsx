@@ -175,7 +175,7 @@ const Footer = () => {
             <span className="font-bold dark:text-white text-blackOne">
               Turboshop.ca
             </span>{" "}
-            © All rights reserved Copyrights 2025
+            © All rights reserved Copyrights 2026
           </p>
         </div>
       </div>
